@@ -1,0 +1,27 @@
+.engagement-item__container {
+  background: #1b1c49;
+  width: 450px;
+  height: 400px;
+  border-radius: 5%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+.engagement-item__container:hover {
+  /* cursor: pointer; */
+  /* filter: blur(2px); */
+}
+
+.engagement-item__banner {
+  width: 400px;
+  max-height: 220px;
+}
+.engagement-item__title {
+  color: white;
+}
+.engagement-item__subtitle {
+  color: white;
+}
