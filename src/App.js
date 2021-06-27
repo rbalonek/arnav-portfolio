@@ -1,10 +1,17 @@
 import "./App.css";
+import Layout from "./layout/Layout.jsx";
+import { Route, Switch } from "react-router-dom";
+import MainContainer from "./containers/MainContainer";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hi</h1>
-    </div>
+    <Layout>
+      <Switch>
+        <Route path="/">
+          <MainContainer />
+        </Route>
+      </Switch>
+    </Layout>
   );
 }
 
