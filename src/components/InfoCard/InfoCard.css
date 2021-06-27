@@ -1,0 +1,21 @@
+.info-card__container {
+  height: 400px;
+  width: 800px;
+  background-color: #1b1c49;
+  display: flex;
+  z-index: 999;
+}
+.info-card__headshot {
+  height: 400px;
+}
+.info-card__text-container {
+  position: relative;
+  align-self: center;
+  /* top: 20px; */
+  /* right: 400px; */
+}
+.info-card__text {
+  padding-left: 180px;
+  color: white;
+  /* text-align: center; */
+}
