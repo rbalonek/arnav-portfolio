@@ -8,6 +8,8 @@ import KoreKloud from "../../assets/KoreKloud.png";
 import SpecialOlymipcs from "../../assets/SpecialOlympics.webp";
 import EEI from "../../assets/EEI.png";
 
+import Eei from "../../components/EEI/Eei";
+
 export default function engagement() {
   return (
     <div>
@@ -70,7 +72,7 @@ export default function engagement() {
           websiteLink="https://www.thethundershots.org/special-olympics"
         />
 
-        <EngagementItem
+        <Eei
           className="engagement-item-card"
           banner={EEI}
           title="Economics Education Initiative"
@@ -81,6 +83,9 @@ export default function engagement() {
             "Leveraged Economics and Financial Literacy Curriculum and held online workshops with EEI community.",
             "The EEI is committed to catering a multifaceted and research-based curriculum to our students. Our primary pillars of focus include financial literacy, design thinking, and investing. Through gamifying and exploring the core fundamentals aforementioned topics, the EEI aims to empower our students to be eccentrically thought leaders and thinkers!",
           ]}
+          videoOne="https://res.cloudinary.com/bobalobbadingdong/video/upload/v1624838466/Arnav/EEI_VID_1_dglk4y.mp4"
+          videoTwo="https://res.cloudinary.com/bobalobbadingdong/video/upload/v1624838559/Arnav/EEI_VID_2_m39teq.mp4"
+          videoThree="https://res.cloudinary.com/bobalobbadingdong/video/upload/v1624838612/Arnav/EEI_VID_4_zl8krs.mp4"
           websiteLink="https://www.eeinj.org/course-details.html"
         />
       </div>
