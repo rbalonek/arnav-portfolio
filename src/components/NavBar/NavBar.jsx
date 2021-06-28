@@ -1,30 +1,25 @@
 import React from "react";
 import "./NavBar.css";
-import { Nav, Navbar } from "react-bootstrap";
+import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 
 const NavBar = (props) => {
   return (
-    <nav
+    <Navbar
       className="
     navbar
     navbar-dark
     
     sticky-top
-    navbar-expand-sm 
+    navbar-expand-sm
     blue
     "
+      collapseOnSelect
+      expand="sm"
+      variant="dark"
     >
       <Navbar.Brand href="/">Arnav Jain</Navbar.Brand>
-
-      <button
-        class="navbar-toggler"
-        data-toggle="collapse"
-        data-target="#navbarCollapse"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarCollapse">
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
         <ul class="navbar-nav ml-auto">
           <li class="navbar-item">
             <a href="/engagement" class="nav-link">
@@ -42,8 +37,8 @@ const NavBar = (props) => {
             </a>
           </li>
         </ul>
-      </div>
-    </nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 };
 
