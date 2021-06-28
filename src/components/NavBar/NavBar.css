@@ -1,0 +1,19 @@
+.nav-container {
+  height: 50px;
+  background-color: black;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-title {
+  color: beige;
+}
+.nav-link-container {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.nav-links {
+  color: bisque;
+}

@@ -1,0 +1,21 @@
+.research-item__container {
+  height: 400px;
+  width: 800px;
+  background-color: #1b1c49;
+  display: flex;
+  z-index: 999;
+}
+.research-item__logo {
+  height: 400px;
+  width: 350px;
+}
+.research-item__text-container {
+  position: relative;
+  align-self: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.research-item__text {
+  padding-left: 10px;
+  color: white;
+}

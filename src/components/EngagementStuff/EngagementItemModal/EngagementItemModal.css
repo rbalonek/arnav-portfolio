@@ -1,0 +1,11 @@
+.engagement-modal__container {
+  text-align: center;
+}
+.engagement-modal__img {
+  height: 200px;
+}
+.carousel {
+  text-align: -webkit-center;
+  background-color: black;
+  margin-bottom: 20px;
+}

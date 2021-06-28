@@ -1,0 +1,22 @@
+.hero-banner {
+  height: 500px;
+  width: 100vw;
+}
+.info-card__holder {
+  position: relative;
+  top: -300px;
+  display: flex;
+  justify-content: center;
+}
+.about__holder {
+  position: relative;
+  top: -400px;
+  z-index: 1;
+}
+.academics__holder {
+  position: relative;
+  top: -380px;
+}
+.section-title {
+  text-align: center;
+}
