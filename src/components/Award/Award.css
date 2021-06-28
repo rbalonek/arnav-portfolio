@@ -1,5 +1,5 @@
 .award__container {
-  text-align: center;
+  text-align: -webkit-center;
   font-family: "Colibri";
   font-size: larger;
   padding-bottom: 20px;

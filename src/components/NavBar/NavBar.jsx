@@ -4,7 +4,16 @@ import { Nav, Navbar } from "react-bootstrap";
 
 const NavBar = (props) => {
   return (
-    <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+    <nav
+      className="
+    navbar
+    navbar-dark
+    
+    sticky-top
+    navbar-expand-sm 
+    blue
+    "
+    >
       <Navbar.Brand href="/">Arnav Jain</Navbar.Brand>
 
       <button

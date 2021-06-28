@@ -23,9 +23,14 @@ export default function BlueOrca() {
     <div className="blue-orcha__container">
       <div className="blue-orcha__card">
         <h1>Blue Orca</h1>
+        <h4>TITLE: Co-Founder and CFO </h4>
         <p>June 2020</p>
         <p>For profit organization</p>
-        <p>TITLE: Co-Founder and CFO </p>
+
+        <div style={{ marginBottom: "10px" }}>
+          <Button onClick={goToSite}>Buy Now</Button>
+        </div>
+        <br />
         <Carousel playing={false} loop="false">
           <Carousel.Item>
             <img className="orcha-img" src={orcaOne} alt={orcaOne} />
@@ -78,7 +83,6 @@ export default function BlueOrca() {
             Our product was endorsed by UC professor and it was featured in a
             Newspaper (100,000+ readers)
           </p>
-          <Button onClick={goToSite}>Buy Now</Button>
         </div>
         <img style={{ marginTop: "20px" }} alt="paper" src={orchaNews} />
       </div>
