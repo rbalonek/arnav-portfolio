@@ -1,6 +1,7 @@
 import React from "react";
 import EngagementItem from "../../components/EngagementStuff/EngagementItem/EngagementItem";
 import "./Engagement.css";
+import { Button } from "react-bootstrap";
 
 import ThunderShots from "../../assets/ThunderShotSite.png";
 import PaperBridges from "../../assets/PaperBridges.png";
@@ -14,6 +15,7 @@ export default function engagement() {
   return (
     <div>
       <h1 style={{ textAlign: "center" }}>Community Engagement</h1>
+      <hr />
       <div className="engagement-items__container">
         <EngagementItem
           className="engagement-item-card"
@@ -88,6 +90,14 @@ export default function engagement() {
           videoThree="https://res.cloudinary.com/bobalobbadingdong/video/upload/v1624838612/Arnav/EEI_VID_4_zl8krs.mp4"
           websiteLink="https://www.eeinj.org/course-details.html"
         />
+      </div>
+
+      <div className="next-page-button__engagement">
+        <a href="/workexperience">
+          <Button variant="primary" size="lg">
+            Next Page >
+          </Button>
+        </a>
       </div>
     </div>
   );

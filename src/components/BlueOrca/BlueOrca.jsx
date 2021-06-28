@@ -84,7 +84,12 @@ export default function BlueOrca() {
             Newspaper (100,000+ readers)
           </p>
         </div>
-        <img style={{ marginTop: "20px" }} alt="paper" src={orchaNews} />
+        <img
+          className="paper-img"
+          style={{ marginTop: "20px" }}
+          alt="paper"
+          src={orchaNews}
+        />
       </div>
     </div>
   );

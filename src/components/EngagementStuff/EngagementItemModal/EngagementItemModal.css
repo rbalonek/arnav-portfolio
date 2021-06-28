@@ -1,11 +1,33 @@
 .engagement-modal__container {
-  text-align: center;
+  text-align: -webkit-center;
 }
 .engagement-modal__img {
-  height: 200px;
+  max-height: 500px;
+  width: 100%;
+  object-fit: contain;
 }
 .carousel {
   text-align: -webkit-center;
   background-color: black;
   margin-bottom: 20px;
+}
+
+.engagement-modal__text {
+  background-color: #1b1c49;
+  color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 2%;
+  width: 95%;
+}
+
+@media (max-width: 810px) {
+  .engagement-modal__img {
+    height: 200px;
+    max-width: 300px;
+  }
+  .engagement-modal__container {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
 }

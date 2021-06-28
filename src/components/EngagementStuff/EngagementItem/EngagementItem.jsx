@@ -1,4 +1,5 @@
 // import { TRUE } from "node-sass";
+import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useState } from "react";
 import { Button, Modal } from "react-bootstrap";
 import EngagementItemModal from "../EngagementItemModal/EngagementItemModal";
@@ -32,7 +33,8 @@ export default function EngagementItem(props) {
 
       <Modal
         size={"xl"}
-        centered
+        // centered
+        scrollable={true}
         show={show}
         onHide={() => setShow(false)}
         dialogClassName="modal-90w"
