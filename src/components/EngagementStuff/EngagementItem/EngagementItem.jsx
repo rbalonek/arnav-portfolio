@@ -33,7 +33,7 @@ export default function EngagementItem(props) {
 
       <Modal
         size={"xl"}
-        // centered
+        centered
         scrollable={true}
         show={show}
         onHide={() => setShow(false)}
