@@ -12,3 +12,20 @@
   padding-right: 80px;
   padding-left: 80px;
 }
+
+@media (max-width: 810px) {
+  .about__container {
+    height: 700px;
+    width: 100vw;
+    background-color: #d7d7d7;
+  }
+  .about-text__container {
+    position: relative;
+    top: 150px;
+    text-align: center;
+  }
+  .about-text {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
