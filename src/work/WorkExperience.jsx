@@ -11,11 +11,11 @@ import Award from "../components/Award/Award";
 export default function WorkExperience() {
   return (
     <div className="work-experience__container">
-      <h1 style={{ textAlign: "center" }}>Work Experience</h1>
+      <h1 className="section-title">Work Experience</h1>
       <hr />
       <BlueOrca />
       <hr />
-      <h1 style={{ textAlign: "center" }}>Research Work</h1>
+      <h1 className="section-title">Research Work</h1>
       <hr />
       <ResearchItem
         title="Research Intern"
@@ -39,7 +39,7 @@ export default function WorkExperience() {
         link="https://www.amazon.com/Economics-Soccer-Covid-19-Arnav-Jain/dp/B08RT6FB64/ref=sr_1_2?dchild=1&keywords=economics+of+soccer+and+covid+19&qid=1618705536&sr=8-2"
       />
       <hr />
-      <h1 style={{ textAlign: "center" }}>Awards</h1>
+      <h1 className="section-title">Awards</h1>
       <hr />
       <Award />
     </div>
