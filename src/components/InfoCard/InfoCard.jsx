@@ -9,7 +9,7 @@ export default function InfoCard() {
         <img className="info-card__headshot" alt="headshot" src={Headshot} />
       </div>
       <div className="info-card__text-container">
-        <h2 className="info-card__text">Arnav Jain</h2>
+        <h2 className="info-card__text card__name">Arnav Jain</h2>
         <br />
         <br />
         <p className="info-card__text ">Phone:</p>

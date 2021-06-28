@@ -1,5 +1,28 @@
 .academics__container {
   position: relative;
   top: 50px;
-  text-align: center;
+  text-align: -webkit-center;
+}
+.academics__card {
+  font-family: "Colibri";
+  border-radius: 5%;
+  padding: 20px;
+  color: white;
+  width: 50%;
+  background-color: #1b1c49;
+}
+.strong {
+  font-weight: 800;
+}
+
+@media (max-width: 810px) {
+  .academics__card {
+    font-family: "Colibri";
+    border-radius: 5%;
+    padding: 20px;
+    color: white;
+    width: 90%;
+    background-color: #1b1c49;
+    font-size: small;
+  }
 }

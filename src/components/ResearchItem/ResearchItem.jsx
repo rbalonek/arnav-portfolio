@@ -14,7 +14,7 @@ export default function ResearchItem(props) {
           <img className="research-item__logo" alt="logo" src={props.logo} />
         </div>
         <div className="research-item__text-container">
-          <h2 className="research-item__text">{props.title}</h2>
+          <h2 className="research-item__text cell-space">{props.title}</h2>
           <br />
           <br />
           <p className="research-item__text ">{props.where}</p>

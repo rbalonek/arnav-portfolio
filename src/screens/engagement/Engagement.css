@@ -6,3 +6,9 @@
 .engagement-item-card {
   /* margin-bottom: 20px; */
 }
+.next-page-button__engagement {
+  text-align: center;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}

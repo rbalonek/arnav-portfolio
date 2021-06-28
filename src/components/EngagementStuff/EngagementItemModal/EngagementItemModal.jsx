@@ -17,10 +17,12 @@ export default function EngagementItemModal(props) {
         src={props.banner}
         alt={props.title}
       />
-      <p>{props.description}</p>
-      {props.points.map((point) => (
-        <p>-{point}</p>
-      ))}
+      <div className="engagement-modal__text">
+        <p>{props.description}</p>
+        {props.points.map((point) => (
+          <p>-{point}</p>
+        ))}
+      </div>
       {props.videoOne && (
         <>
           <Carousel loop={false}>

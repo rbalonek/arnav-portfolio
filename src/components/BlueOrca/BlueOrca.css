@@ -18,3 +18,27 @@
 .blue-orcha__text {
   color: white;
 }
+
+@media (max-width: 810px) {
+  .orcha-img {
+    width: 290px;
+    border-radius: 5%;
+    max-height: 500px;
+    object-fit: contain;
+  }
+  .blue-orcha__card {
+    /* height: 800px; */
+    padding: 20px;
+    width: 90vw;
+    /* background-color: brown; */
+    background: #1b1c49;
+    color: white;
+  }
+
+  .blue-orcha__text {
+    color: white;
+  }
+  .paper-img {
+    width: 290px;
+  }
+}
