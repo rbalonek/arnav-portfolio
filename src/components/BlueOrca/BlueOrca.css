@@ -1,0 +1,20 @@
+.blue-orcha__container {
+  text-align: -webkit-center;
+}
+.orcha-img {
+  width: 500px;
+  border-radius: 5%;
+  height: 500px;
+}
+.blue-orcha__card {
+  /* height: 800px; */
+  padding: 20px;
+  width: 800px;
+  /* background-color: brown; */
+  background: #1b1c49;
+  color: white;
+}
+
+.blue-orcha__text {
+  color: white;
+}

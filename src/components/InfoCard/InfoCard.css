@@ -11,11 +11,9 @@
 .info-card__text-container {
   position: relative;
   align-self: center;
-  /* top: 20px; */
-  /* right: 400px; */
 }
+
 .info-card__text {
   padding-left: 180px;
   color: white;
-  /* text-align: center; */
 }
