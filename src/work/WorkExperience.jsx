@@ -6,6 +6,7 @@ import ResearchItem from "../components/ResearchItem/ResearchItem";
 import Syracuse from "../assets/Syracuse.jpeg";
 import Foothill from "../assets/Foothill.jpeg";
 import Book from "../assets/Book.jpg";
+import Award from "../components/Award/Award";
 
 export default function WorkExperience() {
   return (
@@ -37,6 +38,10 @@ export default function WorkExperience() {
         mission="Wrote and self-published a book on the economic aspects of the soccer industry and impacts of Covid-19. Distributed to underprivileged kids in Africa and Peru. In this book, we dive into the economic impact of covid-19 and have a deeper look at what goes around in the backend of the soccer industry. We also take a deeper look at how fundamental economics concepts influence soccer."
         link="https://www.amazon.com/Economics-Soccer-Covid-19-Arnav-Jain/dp/B08RT6FB64/ref=sr_1_2?dchild=1&keywords=economics+of+soccer+and+covid+19&qid=1618705536&sr=8-2"
       />
+      <hr />
+      <h1 style={{ textAlign: "center" }}>Awards</h1>
+      <hr />
+      <Award />
     </div>
   );
 }
