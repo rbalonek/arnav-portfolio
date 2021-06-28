@@ -14,7 +14,9 @@ import Eei from "../../components/EEI/Eei";
 export default function engagement() {
   return (
     <div>
-      <h1 style={{ textAlign: "center" }}>Community Engagement</h1>
+      <h1 className="section-title" style={{ textAlign: "center" }}>
+        Community Engagement
+      </h1>
       <hr />
       <div className="engagement-items__container">
         <EngagementItem
