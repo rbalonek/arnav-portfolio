@@ -29,7 +29,7 @@
 @media (max-width: 810px) {
   .info-card__container {
     position: relative;
-    bottom: 20vh;
+    /* bottom: 20vh; */
     height: 70vh;
     /* width: 310px; */
     width: 90vw;

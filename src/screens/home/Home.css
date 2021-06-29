@@ -24,7 +24,7 @@
   /* font-family: "Nanum Gothic", sans-serif; */
   font-family: "Rajdhani", sans-serif;
   font-weight: 300;
-  margin-top: -0px;
+  margin-top: -20px;
   background-color: black;
 }
 .next-page-button {
@@ -35,4 +35,23 @@
 .engagement__holder {
   position: relative;
   bottom: 390px;
+}
+
+@media (max-width: 800px) {
+  .hero-banner {
+    max-height: 100vh;
+    width: 100vw;
+  }
+  .info-card__holder {
+    bottom: 90vh;
+  }
+  .section-title {
+    text-align: center;
+    letter-spacing: 1px;
+    /* font-family: "Nanum Gothic", sans-serif; */
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    margin-top: 0px;
+    background-color: black;
+  }
 }

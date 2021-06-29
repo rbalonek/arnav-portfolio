@@ -58,3 +58,9 @@
     font-size: small;
   }
 } */
+
+@media (max-width: 800px) {
+  .academics-parent {
+    padding-top: 0px;
+  }
+}
