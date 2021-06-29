@@ -1,5 +1,16 @@
 .academics__container {
   position: relative;
+  bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #c8d8e4;
+  /* min-height: 100vh; */
+  padding-bottom: 20px;
+}
+
+/* .academics__container {
+  position: relative;
   top: 50px;
   text-align: -webkit-center;
 }
@@ -25,4 +36,4 @@
     background-color: #1b1c49;
     font-size: small;
   }
-}
+} */

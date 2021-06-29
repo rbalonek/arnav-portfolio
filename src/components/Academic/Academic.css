@@ -1,0 +1,20 @@
+.academic__container {
+  /* background-color: #52ab98; */
+  background-color: #2b6777;
+  height: 200px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  border-radius: 5%;
+  padding: 15px;
+  margin-top: 30px;
+  /* color: #2b6777; */
+  /* color: #ff8552; */
+  /* color: #f06543; */
+  /* color: #d5a021; */
+  color: #c8d8e4;
+  font-family: sans-serif;
+  font-weight: 800;
+}
