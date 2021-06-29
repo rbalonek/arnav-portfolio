@@ -1,7 +1,6 @@
 import React from "react";
 import EngagementItem from "../../components/EngagementStuff/EngagementItem/EngagementItem";
 import "./Engagement.css";
-import { Button } from "react-bootstrap";
 
 import ThunderShots from "../../assets/ThunderShotSite.png";
 import PaperBridges from "../../assets/PaperBridges.png";
@@ -11,7 +10,7 @@ import EEI from "../../assets/EEI.png";
 
 import Eei from "../../components/EEI/Eei";
 
-export default function engagement() {
+export default function Engagement() {
   return (
     <div>
       <h1 className="section-title" style={{ textAlign: "center" }}>
@@ -92,14 +91,6 @@ export default function engagement() {
           videoThree="https://res.cloudinary.com/bobalobbadingdong/video/upload/v1624838612/Arnav/EEI_VID_4_zl8krs.mp4"
           websiteLink="https://www.eeinj.org/course-details.html"
         />
-      </div>
-
-      <div className="next-page-button__engagement">
-        <a href="/workexperience">
-          <Button variant="primary" size="lg">
-            Next Page >
-          </Button>
-        </a>
       </div>
     </div>
   );
