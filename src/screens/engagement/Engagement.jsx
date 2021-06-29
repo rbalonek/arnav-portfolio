@@ -12,11 +12,11 @@ import Eei from "../../components/EEI/Eei";
 
 export default function Engagement() {
   return (
-    <div>
-      <h1 className="section-title" style={{ textAlign: "center" }}>
+    <div className="engagement-items__parent">
+      <h1 style={{ color: "white" }} className="section-title">
         Community Engagement
       </h1>
-      <hr />
+
       <div className="engagement-items__container">
         <EngagementItem
           className="engagement-item-card"

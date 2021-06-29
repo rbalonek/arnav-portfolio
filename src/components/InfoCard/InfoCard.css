@@ -1,7 +1,14 @@
 .info-card__container {
   height: 400px;
   width: 800px;
-  background-color: #1b1c49;
+  /* background-color: #1b1c49; */
+
+  /* background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%); */
+
+  background-color: #4834d4;
+  background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
+
   display: flex;
   z-index: 999;
 }
@@ -14,7 +21,8 @@
 }
 
 .info-card__text {
-  padding-left: 180px;
+  padding-left: 30px;
+  padding-right: 30px;
   color: white;
 }
 

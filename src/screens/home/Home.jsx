@@ -16,13 +16,8 @@ export default function Home() {
         <InfoCard />
       </div>
 
-      <div className="about__holder">
-        <About />
-      </div>
-      <div id="academics" style={{ position: "relative", bottom: "450px" }} />
+      <div id="academics" style={{ position: "relative", bottom: "460px" }} />
       <div className="academics__holder">
-        <h1 className="section-title">Academics</h1>
-        <hr />
         <Academics />
         <div style={{ position: "relative", bottom: "80px" }} id="engagement" />
       </div>

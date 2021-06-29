@@ -1,11 +1,32 @@
+.engagement-items__parent {
+  display: flex;
+  flex-direction: column;
+  /* background-color: #4834d4;
+  background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%); */
+
+  /* background-color: #4834d4;
+  background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%); */
+
+  /* background-color: #4834d4;
+  background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%); */
+
+  background-color: #4834d4;
+  background-image: linear-gradient(315deg, #0c0c0c 0%, #4834d4 74%);
+
+  position: relative;
+  bottom: 10px;
+  padding-top: 20px;
+}
 .engagement-items__container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  /* background-color: #d3bda3; */
+
   position: relative;
-  bottom: 16px;
+
   padding: 20px;
+  /* background-color: #e9bcb7;
+  background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%); */
 }
 .engagement-item-card {
   /* margin-bottom: 20px; */
