@@ -1,6 +1,5 @@
 import React from "react";
 import Hero from "../../assets/Hero1.jpg";
-import About from "../../components/About/About";
 import Academics from "../../components/academics/Academics";
 import InfoCard from "../../components/InfoCard/InfoCard";
 import Engagement from "../engagement/Engagement";
@@ -16,10 +15,11 @@ export default function Home() {
         <InfoCard />
       </div>
 
-      <div id="academics" style={{ position: "relative", bottom: "460px" }} />
+      <div id="academics" style={{ position: "relative", bottom: "480px" }} />
       <div className="academics__holder">
         <Academics />
-        <div style={{ position: "relative", bottom: "80px" }} id="engagement" />
+
+        <div style={{ position: "relative", bottom: "90px" }} id="engagement" />
       </div>
       <div className="engagement__holder">
         <Engagement />

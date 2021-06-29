@@ -24,6 +24,8 @@
   /* font-family: "Nanum Gothic", sans-serif; */
   font-family: "Rajdhani", sans-serif;
   font-weight: 300;
+  margin-top: -20px;
+  background-color: black;
 }
 .next-page-button {
   text-align: center;
