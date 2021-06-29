@@ -23,7 +23,7 @@ export default function Engagement() {
           banner={ThunderShots}
           title="Thunder Shots"
           position="Founder & CEO"
-          subtitle="International non-profit organization"
+          subtitle="I started this organization during the tough times of COVID to connect our global community through soccer and help kids develop leadership, compassion, and teamwork skills."
           description="Soccer is my passion and I have been playing soccer since the age of 6. I started this organization during the tough times of COVID to connect our global community through soccer and help kids develop leadership, compassion, and teamwork skills. "
           points={[
             "Built an organization from scratch, have a solid team of 25+ members from diverse backgrounds. Assigned roles and responsibilities for Marketing, Operations, Outreach, Finance, and IT etc.",
@@ -40,7 +40,7 @@ export default function Engagement() {
           banner={PaperBridges}
           title="Paper Bridges"
           position="California State President"
-          subtitle="Non-profit organization"
+          subtitle="Non-profit organization to support orphans and vulnerable children around the world."
           description="Paper bridges is an NPO to support orphans and vulnerable children around the world. Since my engagement, we started 18 active chapters throughout California and have paired each chapter with an orphanage in Peru and Nepal where we oversee projects such as digital letter campaigns, art kits distribution, fundraisers, etc."
           points={[]}
           websiteLink="https://www.paper-bridges.org/"
@@ -51,7 +51,7 @@ export default function Engagement() {
           banner={KoreKloud}
           title="Kore Cloud"
           position="Vice President of Marketing (Since Sep 2020)"
-          subtitle="Director of Operations	Sep 2019–Aug 2020"
+          subtitle="I helped start this nonprofit organization to provide a variety of educational programs, free of charge, to needy students through digital/in person classes."
           description="I helped start this nonprofit organization to provide a variety of educational programs, free of charge, to needy students through digital/in person classes. "
           points={[
             "Developed an intensive business, finance and economics course garnering 100+ students (5 countries).",
@@ -66,7 +66,7 @@ export default function Engagement() {
           banner={SpecialOlymipcs}
           title="Special Olympics"
           position="Soccer Coach"
-          subtitle=""
+          subtitle="Special Olympics is the world's largest sports organization for children and adults with disabilities providing year-round training."
           description="Special Olympics is the world's largest sports organization for children and adults with disabilities providing year-round training."
           points={[
             "Coached (virtual) 200+ kids, helped lead drills ",
@@ -80,7 +80,9 @@ export default function Engagement() {
           banner={EEI}
           title="Economics Education Initiative"
           position="Product Development"
-          subtitle="business education NPO"
+          subtitle="EEI is a business education NPO with workshops across US and Caribbean. It has a reach to 1800+ students.
+
+          "
           description="EEI is a business education NPO with workshops across US and Caribbean. It has a reach to 1800+ students."
           points={[
             "Leveraged Economics and Financial Literacy Curriculum and held online workshops with EEI community.",

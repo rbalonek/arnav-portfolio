@@ -21,18 +21,14 @@ export default function EngagementItem(props) {
       >
         {props.position}
       </h4>
+
+      <p className="engagement-item__subtitle">{props.subtitle}</p>
       <img
         className="engagement-item__banner"
         src={props.banner}
         alt={props.title}
       />
-      <p className="engagement-item__subtitle">{props.subtitle}</p>
-
-      <Button
-        style={{ position: "relative", bottom: "10px" }}
-        variant="primary"
-        onClick={() => setShow(true)}
-      >
+      <Button variant="primary" onClick={() => setShow(true)}>
         More Info
       </Button>
 

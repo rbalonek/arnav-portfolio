@@ -24,10 +24,10 @@
 }
 
 .engagement-item__container {
-  /* background: #1b1c49; */
-  background-color: #52ab98;
+  /* background-color: #52ab98; */
+  background-color: #2b6777;
   width: 600px;
-  height: 400px;
+  height: 500px;
   border-radius: 5%;
   text-align: center;
   display: flex;
@@ -36,6 +36,7 @@
   align-items: center;
   margin: 10px;
   box-shadow: 2px 5px 3px 0 black;
+  padding: 20px;
 }
 .engagement-item__container:hover {
   /* cursor: pointer; */
@@ -46,7 +47,8 @@
   width: 400px;
   max-height: 220px;
   position: relative;
-  bottom: 25px;
+  bottom: 10px;
+  box-shadow: 2px 5px 3px 0 black;
 }
 .engagement-item__title {
   color: white;
