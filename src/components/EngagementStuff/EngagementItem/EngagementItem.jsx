@@ -14,20 +14,21 @@ export default function EngagementItem(props) {
 
   return (
     <div className="engagement-item__container">
-      <h1 className="engagement-item__title">{props.title}</h1>
-      <h3 className="engagement-item__title">{props.position}</h3>
+      <h2 className="engagement-item__title">{props.title}</h2>
+      <h4
+        style={{ position: "relative", bottom: "15px" }}
+        className="engagement-item__title"
+      >
+        {props.position}
+      </h4>
+
+      <p className="engagement-item__subtitle">{props.subtitle}</p>
       <img
         className="engagement-item__banner"
         src={props.banner}
         alt={props.title}
       />
-      <p className="engagement-item__subtitle">{props.subtitle}</p>
-
-      <Button
-        style={{ position: "relative", bottom: "10px" }}
-        variant="primary"
-        onClick={() => setShow(true)}
-      >
+      <Button variant="primary" onClick={() => setShow(true)}>
         More Info
       </Button>
 

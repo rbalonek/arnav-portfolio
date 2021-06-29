@@ -1,7 +1,6 @@
 import React from "react";
 import EngagementItem from "../../components/EngagementStuff/EngagementItem/EngagementItem";
 import "./Engagement.css";
-import { Button } from "react-bootstrap";
 
 import ThunderShots from "../../assets/ThunderShotSite.png";
 import PaperBridges from "../../assets/PaperBridges.png";
@@ -11,20 +10,20 @@ import EEI from "../../assets/EEI.png";
 
 import Eei from "../../components/EEI/Eei";
 
-export default function engagement() {
+export default function Engagement() {
   return (
-    <div>
-      <h1 className="section-title" style={{ textAlign: "center" }}>
+    <div className="engagement-items__parent">
+      <h1 style={{ color: "white" }} className="section-title">
         Community Engagement
       </h1>
-      <hr />
+
       <div className="engagement-items__container">
         <EngagementItem
           className="engagement-item-card"
           banner={ThunderShots}
           title="Thunder Shots"
           position="Founder & CEO"
-          subtitle="International non-profit organization"
+          subtitle="I started this organization during the tough times of COVID to connect our global community through soccer and help kids develop leadership, compassion, and teamwork skills."
           description="Soccer is my passion and I have been playing soccer since the age of 6. I started this organization during the tough times of COVID to connect our global community through soccer and help kids develop leadership, compassion, and teamwork skills. "
           points={[
             "Built an organization from scratch, have a solid team of 25+ members from diverse backgrounds. Assigned roles and responsibilities for Marketing, Operations, Outreach, Finance, and IT etc.",
@@ -41,7 +40,7 @@ export default function engagement() {
           banner={PaperBridges}
           title="Paper Bridges"
           position="California State President"
-          subtitle="Non-profit organization"
+          subtitle="Non-profit organization to support orphans and vulnerable children around the world."
           description="Paper bridges is an NPO to support orphans and vulnerable children around the world. Since my engagement, we started 18 active chapters throughout California and have paired each chapter with an orphanage in Peru and Nepal where we oversee projects such as digital letter campaigns, art kits distribution, fundraisers, etc."
           points={[]}
           websiteLink="https://www.paper-bridges.org/"
@@ -52,7 +51,7 @@ export default function engagement() {
           banner={KoreKloud}
           title="Kore Cloud"
           position="Vice President of Marketing (Since Sep 2020)"
-          subtitle="Director of Operations	Sep 2019–Aug 2020"
+          subtitle="I helped start this nonprofit organization to provide a variety of educational programs, free of charge, to needy students through digital/in person classes."
           description="I helped start this nonprofit organization to provide a variety of educational programs, free of charge, to needy students through digital/in person classes. "
           points={[
             "Developed an intensive business, finance and economics course garnering 100+ students (5 countries).",
@@ -67,7 +66,7 @@ export default function engagement() {
           banner={SpecialOlymipcs}
           title="Special Olympics"
           position="Soccer Coach"
-          subtitle=""
+          subtitle="Special Olympics is the world's largest sports organization for children and adults with disabilities providing year-round training."
           description="Special Olympics is the world's largest sports organization for children and adults with disabilities providing year-round training."
           points={[
             "Coached (virtual) 200+ kids, helped lead drills ",
@@ -81,7 +80,9 @@ export default function engagement() {
           banner={EEI}
           title="Economics Education Initiative"
           position="Product Development"
-          subtitle="business education NPO"
+          subtitle="EEI is a business education NPO with workshops across US and Caribbean. It has a reach to 1800+ students.
+
+          "
           description="EEI is a business education NPO with workshops across US and Caribbean. It has a reach to 1800+ students."
           points={[
             "Leveraged Economics and Financial Literacy Curriculum and held online workshops with EEI community.",
@@ -92,14 +93,6 @@ export default function engagement() {
           videoThree="https://res.cloudinary.com/bobalobbadingdong/video/upload/v1624838612/Arnav/EEI_VID_4_zl8krs.mp4"
           websiteLink="https://www.eeinj.org/course-details.html"
         />
-      </div>
-
-      <div className="next-page-button__engagement">
-        <a href="/workexperience">
-          <Button variant="primary" size="lg">
-            Next Page >
-          </Button>
-        </a>
       </div>
     </div>
   );

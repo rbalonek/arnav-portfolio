@@ -24,9 +24,40 @@
 }
 
 .engagement-item__container {
-  background: #1b1c49;
-  width: 450px;
-  height: 400px;
+  /* background-color: #52ab98; */
+  /* background-color: #2b6777; */
+  /* background-color: #045de9;
+  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%); */
+  /* background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%); */
+  /* 
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%); */
+
+  /* background-color: #6e72fc;
+  background-image: linear-gradient(315deg, #6e72fc 0%, #ad1deb 74%); */
+
+  /* background-color: #6c33a3;
+  background-image: linear-gradient(316deg, #6c33a3 0%, #8241b8 74%); */
+
+  /* background-color: #9fa4c4;
+  background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%); */
+
+  /* background-color: #663dff;
+  background-image: linear-gradient(
+    319deg,
+    #663dff 0%,
+    #aa00ff 37%,
+    #cc4499 100%
+  ); */
+
+  /* background-color: #9893da; */
+
+  background-color: #4834d4;
+  background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 57%);
+
+  width: 600px;
+  height: 500px;
   border-radius: 5%;
   text-align: center;
   display: flex;
@@ -34,6 +65,9 @@
   justify-content: space-around;
   align-items: center;
   margin: 10px;
+  box-shadow: 2px 5px 3px 0 black;
+  padding: 20px;
+  margin-bottom: 30px;
 }
 .engagement-item__container:hover {
   /* cursor: pointer; */
@@ -43,9 +77,13 @@
 .engagement-item__banner {
   width: 400px;
   max-height: 220px;
+  position: relative;
+  bottom: 10px;
+  box-shadow: 2px 5px 3px 0 black;
 }
 .engagement-item__title {
   color: white;
+  font-family: "Rajdhani", sans-serif;
 }
 .engagement-item__subtitle {
   color: white;
@@ -53,7 +91,7 @@
 
 @media (max-width: 810px) {
   .engagement-item__container {
-    background: #1b1c49;
+    /* background: #1b1c49; */
     width: 310px;
     height: 400px;
     border-radius: 5%;

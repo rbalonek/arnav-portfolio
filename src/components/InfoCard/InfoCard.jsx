@@ -18,23 +18,13 @@ export default function InfoCard() {
         direction="right"
       >
         <div className="info-card__text-container">
-          <h2 className="info-card__text card__name">Arnav Jain</h2>
-          <br />
-          <br />
-          <p className="info-card__text ">Phone:</p>
-          <p
-            style={{ position: "relative", top: "-20px" }}
-            className="info-card__text"
-          >
-            408-816-4119
-          </p>
-
-          <p className="info-card__text ">Email:</p>
-          <p
-            style={{ position: "relative", top: "-20px" }}
-            className="info-card__text"
-          >
-            Arnav.jain@yahoo.com
+          <p className="info-card__text">
+            {" "}
+            I am currently a student at Lynbrook High School. My idea of
+            learning is to keep a balance between my academic goals and
+            real-world experiences to maximize the breadth of skills and pursue
+            my passions. Whether it’s a school project or an activity to support
+            the community, I give my best.
           </p>
         </div>
       </Fade>

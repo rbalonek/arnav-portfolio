@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavBar.css";
-import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 
 const NavBar = (props) => {
   return (
@@ -17,20 +17,21 @@ const NavBar = (props) => {
       expand="sm"
       variant="dark"
     >
-      <Navbar.Brand href="/">Arnav Jain</Navbar.Brand>
+      <Navbar.Brand href="/#top">Arnav Jain</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <ul class="navbar-nav ml-auto">
+          <li className="navbar-item">
+            <a href="/#academics" className="nav-link">
+              Academics
+            </a>
+          </li>
           <li class="navbar-item">
-            <a href="/engagement" class="nav-link">
+            <a href="/#engagement" class="nav-link">
               Engagement
             </a>
           </li>
-          <li class="navbar-item">
-            <a href="/leadership" class="nav-link">
-              Leadership
-            </a>
-          </li>
+
           <li class="navbar-item">
             <a href="/workexperience" class="nav-link">
               Work Experience
