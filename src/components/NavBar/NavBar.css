@@ -7,7 +7,8 @@
   justify-content: space-around;
 }
 .nav-title {
-  color: beige;
+  /* color: beige; */
+  color: black;
 }
 .nav-link-container {
   display: flex;
@@ -15,11 +16,16 @@
   /* align-items: center; */
 }
 .nav-links {
-  color: bisque;
+  /* color: bisque; */
+  color: black;
 }
 .blue {
-  background-color: #2b6777;
+  /* background-color: #2b6777; */
+  /* background-color: #09c6f9; */
+  background-color: black;
+  height: 70px;
   /* background-color: #1c334a; */
   width: 100% !important;
   /* background-color: #1b1c49; */
+  color: black;
 }

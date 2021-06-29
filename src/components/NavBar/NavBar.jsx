@@ -21,8 +21,8 @@ const NavBar = (props) => {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="navbar-item">
-            <a href="/#academics" class="nav-link">
+          <li className="navbar-item">
+            <a href="/#academics" className="nav-link">
               Academics
             </a>
           </li>
@@ -31,11 +31,7 @@ const NavBar = (props) => {
               Engagement
             </a>
           </li>
-          <li class="navbar-item">
-            <a href="/leadership" class="nav-link">
-              Leadership
-            </a>
-          </li>
+
           <li class="navbar-item">
             <a href="/workexperience" class="nav-link">
               Work Experience
