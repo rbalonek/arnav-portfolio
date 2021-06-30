@@ -12,6 +12,22 @@
   display: flex;
   /* z-index: 999; */
 }
+
+.top__anchor {
+  position: relative;
+  bottom: 60px;
+}
+
+.academics__anchor {
+  position: relative;
+  bottom: 100px;
+}
+
+.engagement__anchor {
+  position: relative;
+  bottom: 80px;
+}
+
 .info-card__headshot {
   height: 400px;
 }
@@ -49,15 +65,42 @@
     top: 5px;
     text-align: center;
   }
+  .info-card__text {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-size: medium;
+  }
 
+  .top__anchor {
+    position: relative;
+    bottom: 60px;
+  }
+
+  .academics__anchor {
+    position: relative;
+    bottom: 215px;
+  }
+
+  .engagement__anchor {
+    position: relative;
+    bottom: 215px;
+  }
+}
+
+@media (max-width: 350px) {
   .info-card__text {
     padding-left: 20px;
     padding-right: 20px;
     color: white;
     font-size: smaller;
   }
-  /* .card__name {
+  .academics__anchor {
     position: relative;
-    top: 10px;
-  } */
+    bottom: 110px;
+  }
+  .engagement__anchor {
+    position: relative;
+    bottom: 100px;
+  }
 }

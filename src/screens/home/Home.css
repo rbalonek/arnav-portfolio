@@ -1,23 +1,24 @@
+.landing-banner__container {
+  height: 100vh;
+  position: relative;
+}
+
 .hero-banner {
-  height: 900px;
+  height: 100vh;
   width: 100vw;
 }
 .info-card__holder {
-  position: relative;
-  bottom: 700px;
-
+  position: absolute;
+  top: 200px;
+  /* left: 22vw; */
   display: flex;
   justify-content: center;
 }
-.about__holder {
-  position: relative;
-  top: -400px;
-  /* z-index: 1; */
-}
-.academics__holder {
+
+/* .academics__holder {
   position: relative;
   top: -380px;
-}
+} */
 .section-title {
   text-align: center;
   letter-spacing: 1px;
@@ -34,16 +35,18 @@
 }
 .engagement__holder {
   position: relative;
-  bottom: 390px;
+  /* bottom: 390px; */
 }
 
 @media (max-width: 800px) {
   .hero-banner {
-    max-height: 100vh;
-    width: 100vw;
+    height: 100vh;
+    /* width: 100vw; */
   }
   .info-card__holder {
-    bottom: 90vh;
+    top: 100px;
+    /* left: 5vw; */
+    left: 5%;
   }
   .section-title {
     text-align: center;
@@ -51,7 +54,7 @@
     /* font-family: "Nanum Gothic", sans-serif; */
     font-family: "Rajdhani", sans-serif;
     font-weight: 300;
-    margin-top: 0px;
+    /* margin-top: 0px; */
     background-color: black;
   }
 }

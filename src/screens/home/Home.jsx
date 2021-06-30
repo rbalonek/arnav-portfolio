@@ -8,18 +8,20 @@ import "./Home.css";
 export default function Home() {
   return (
     <div>
-      <div id="top" />
-      <img className="hero-banner" src={Hero} alt="hero" />
+      <div className="top__anchor" id="top" />
 
+      <div className="landing-banner__container">
+        <img className="hero-banner" src={Hero} alt="hero" />
+      </div>
       <div className="info-card__holder">
         <InfoCard />
       </div>
 
-      <div id="academics" style={{ position: "relative", bottom: "480px" }} />
+      <div className="academics__anchor" id="academics" />
       <div className="academics__holder">
         <Academics />
 
-        <div style={{ position: "relative", bottom: "90px" }} id="engagement" />
+        <div className="engagement__anchor" id="engagement" />
       </div>
       <div className="engagement__holder">
         <Engagement />
