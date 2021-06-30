@@ -2,7 +2,7 @@ import React from "react";
 import "./NavBar.css";
 import { Navbar } from "react-bootstrap";
 
-const NavBar = (props) => {
+const NavBar = () => {
   return (
     <Navbar
       className="

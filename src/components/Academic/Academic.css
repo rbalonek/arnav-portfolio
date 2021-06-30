@@ -33,3 +33,29 @@
   font-weight: 800;
   box-shadow: 2px 5px 3px 0 #0c0c0c;
 }
+
+@media (max-width: 800px) {
+  .academic__container {
+    height: 20vh;
+    width: 40vw;
+    font-size: small;
+    /* contain: content; */
+  }
+  .academic__title {
+    font-size: small;
+    font-weight: 800;
+    color: red;
+  }
+}
+
+@media (max-width: 350px) {
+  .academic__container {
+    height: fit-content;
+    width: 60vw;
+    font-size: small;
+    /* contain: content; */
+  }
+  .academic__title {
+    font-size: small;
+  }
+}

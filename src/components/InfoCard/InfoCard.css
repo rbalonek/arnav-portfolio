@@ -10,8 +10,24 @@
   background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
 
   display: flex;
-  z-index: 999;
+  /* z-index: 999; */
 }
+
+.top__anchor {
+  position: relative;
+  bottom: 60px;
+}
+
+.academics__anchor {
+  position: relative;
+  bottom: 100px;
+}
+
+.engagement__anchor {
+  position: relative;
+  bottom: 100px;
+}
+
 .info-card__headshot {
   height: 400px;
 }
@@ -28,30 +44,63 @@
 
 @media (max-width: 810px) {
   .info-card__container {
-    height: 200px;
-    width: 300px;
+    position: relative;
+    /* bottom: 20vh; */
+    height: 70vh;
+    /* width: 310px; */
+    width: 90vw;
     background-color: #1b1c49;
     display: flex;
-    z-index: 999;
+    /* z-index: 999; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
   }
   .info-card__headshot {
-    height: 200px;
+    height: 50vw;
   }
   .info-card__text-container {
     position: relative;
     align-self: center;
-    top: 10px;
+    top: 5px;
     text-align: center;
   }
-
   .info-card__text {
-    padding-left: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-size: medium;
+  }
 
+  .top__anchor {
+    position: relative;
+    bottom: 60px;
+  }
+
+  .academics__anchor {
+    position: relative;
+    bottom: 215px;
+  }
+
+  .engagement__anchor {
+    position: relative;
+    bottom: 215px;
+  }
+}
+
+@media (max-width: 350px) {
+  .info-card__text {
+    padding-left: 20px;
+    padding-right: 20px;
     color: white;
     font-size: smaller;
   }
-  .card__name {
+  .academics__anchor {
     position: relative;
-    top: 10px;
+    bottom: 110px;
+  }
+  .engagement__anchor {
+    position: relative;
+    bottom: 100px;
   }
 }
