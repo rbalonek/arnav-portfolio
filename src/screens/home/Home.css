@@ -10,6 +10,7 @@
 .info-card__holder {
   position: absolute;
   top: 200px;
+  width: 100vw;
   /* left: 22vw; */
   display: flex;
   justify-content: center;
@@ -20,6 +21,10 @@
   top: -380px;
 } */
 .section-title {
+  /* z-index: 999;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 70px; */
   text-align: center;
   letter-spacing: 1px;
   /* font-family: "Nanum Gothic", sans-serif; */
@@ -46,7 +51,7 @@
   .info-card__holder {
     top: 100px;
     /* left: 5vw; */
-    left: 5%;
+    /* left: 5%; */
   }
   .section-title {
     text-align: center;

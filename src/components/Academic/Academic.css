@@ -1,6 +1,6 @@
 .academic__container {
   /* background-color: #52ab98; */
-  /* background-color: #2b6777; */
+  /* background-color: #bbbdf6; */
   /* background-color: #63a4ff;
   background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%); */
 
@@ -9,6 +9,11 @@
 
   /* background-color: #861657;
   background-image: linear-gradient(315deg, #861657 0%, #aa4465 74%); */
+
+  /* background-color: #bbbdf6;
+  background-image: linear-gradient(315deg, #bbbdf6 0%, white 94%); */
+
+  background-color: #de541e;
 
   height: 200px;
   width: 250px;
@@ -19,14 +24,15 @@
   border-radius: 5%;
   padding: 15px;
   margin-top: 30px;
+  margin-left: 10px;
   /* color: #2b6777; */
   /* color: #ff8552; */
   /* color: #f06543; */
   /* color: #d5a021; */
   /* color: #c8d8e4; */
 
-  background-color: #4834d4;
-  background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 27%);
+  /* background-color: #4834d4;
+  background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 27%); */
 
   color: white;
   font-family: sans-serif;
@@ -44,7 +50,7 @@
   .academic__title {
     font-size: small;
     font-weight: 800;
-    color: red;
+    /* color: red; */
   }
 }
 
