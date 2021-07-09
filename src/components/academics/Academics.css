@@ -2,8 +2,20 @@
   display: flex;
   flex-direction: column;
   /* background-color: #9893da; */
-  background-color: #4834d4;
-  background-image: linear-gradient(315deg, #0c0c0c 0%, #4834d4 74%);
+  /* background-color: #4834d4;
+  background-image: linear-gradient(315deg, #0c0c0c 0%, #4834d4 74%); */
+  /* background-color: #d6d6b1; */
+
+  /* background-color: #ff4e00;
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%); */
+
+  /* background-color: #a40606;
+  background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%); */
+
+  /* background-color: #232539;
+  background-image: linear-gradient(315deg, #232539 0%, #bbbdf6 74%); */
+
+  background-color: #bbbdf6;
 
   position: relative;
   bottom: 20px;
