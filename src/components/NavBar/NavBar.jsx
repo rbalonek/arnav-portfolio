@@ -53,7 +53,7 @@ const NavBar = () => {
 
         <ul class="navbar-nav ml-auto">
           <li class="navbar-item ">
-            <a href="#" class="nav-link">
+            <a href="#social-impact" class="nav-link">
               Social Impact
             </a>
           </li>

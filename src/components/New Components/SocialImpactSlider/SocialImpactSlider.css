@@ -1,0 +1,14 @@
+.social-impact-slider__container {
+}
+.social-impact-slider__carousel-holder {
+  position: relative;
+  top: 70px;
+}
+.social-impact-slider__carousel {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.social-impact-slider__image {
+  height: 300px;
+}
