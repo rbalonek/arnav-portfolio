@@ -1,9 +1,11 @@
 import React from "react";
+import "./OnePage.css";
+import Landing from "../../components/New Components/Landing/Landing";
 
 export default function OnePage() {
   return (
     <div>
-      <h1>New Home</h1>
+      <Landing />
     </div>
   );
 }

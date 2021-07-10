@@ -1,0 +1,27 @@
+.landing__container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.landing__left-third {
+  width: 30vw;
+  text-align: center;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.landing__middle-third {
+  width: 35vw;
+  text-align: center;
+  /* background-color: blue; */
+  contain: content;
+  position: relative;
+  top: 30px;
+}
+.landing__right-third {
+  width: 30vw;
+  text-align: center;
+  /* background-color: green; */
+}
