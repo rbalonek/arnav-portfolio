@@ -6,7 +6,7 @@ export default function AcademicAndSummer() {
   return (
     <div className="academic-summer__container">
       <div className="academic-summer__banner">
-        <h1>ACADEMICS AND SUMMER PROGRAMS</h1>
+        <h1 className="title__banners">ACADEMICS AND SUMMER PROGRAMS</h1>
       </div>
 
       <div className="academic-summer__top__container">

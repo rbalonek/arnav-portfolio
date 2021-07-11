@@ -1,9 +1,10 @@
 .social-impact__container {
+  /* height: 1000px; */
   height: 100vh;
-  /* display: flex; */
-  /* flex-direction: column;
-  contain: content;
-  justify-content: space-between; */
+  display: flex;
+  flex-direction: column;
+  /* contain: content; */
+  justify-content: space-between;
 }
 .social-impact__banner {
   background-color: #4834d4;
@@ -27,4 +28,29 @@
 .social-impact__right-two-thirds {
   width: 60vw;
   /* background-color: cadetblue; */
+}
+.social-impact__footer__holder {
+  /* position: -webkit-sticky;
+  position: relative;
+  top: 380px; */
+  position: relative;
+  bottom: 77px;
+}
+
+@media (max-width: 768px) {
+  .social-impact__content-split {
+    flex-direction: column;
+    align-items: center;
+  }
+  .social-impact__left-one-third {
+    font-size: 15px;
+    width: 80%;
+    margin-top: -100px;
+  }
+}
+
+@media (max-width: 510px) {
+  .social-impact__left-one-third {
+    font-size: 10px;
+  }
 }

@@ -21,3 +21,20 @@
   height: 400px;
   /* background-color: blue; */
 }
+@media (max-width: 720px) {
+  .awards__text-carousel__container {
+    font-size: 10px;
+  }
+  .awards__text-carousel__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .awards__carousel {
+    position: relative;
+    top: 30px;
+    width: auto;
+  }
+  .awards__text {
+    width: 300px;
+  }
+}

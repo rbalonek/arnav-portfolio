@@ -11,18 +11,15 @@ export default function OnePage() {
   return (
     <div>
       <Landing />
-      <div
-        id="social-impact"
-        style={{ position: "relative", bottom: "77px" }}
-      />
+      <div id="social-impact" className="social" />
       <SocialImpact />
-      <div id="academic" style={{ position: "relative", bottom: "77px" }} />
+      <div className="academic" id="academic" />
       <AcademicAndSummer />
-      <div id="leadership" style={{ position: "relative", bottom: "77px" }} />
+      <div className="leadership" id="leadership" />
       <Leadership />
-      <div id="awards" style={{ position: "relative", bottom: "77px" }} />
+      <div className="awards" id="awards" />
       <Awards />
-      <div id="research" style={{ position: "relative", bottom: "77px" }} />
+      <div className="research" id="research" />
       <Research />
     </div>
   );

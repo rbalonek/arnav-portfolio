@@ -9,20 +9,10 @@ export default function Research() {
   return (
     <div className="research__container">
       <div className="leadership__banner">
-        <h1>RESEARCH</h1>
+        <h1 className="title__banners">RESEARCH</h1>
       </div>
 
-      <Container
-        style={{
-          width: "90%",
-          position: "relative",
-          top: "50px",
-          boxShadow: "2px 5px 3px 0 #0c0c0c",
-          backgroundColor: "blue",
-          color: "white",
-        }}
-        fluid={true}
-      >
+      <Container className="container-text__container" fluid={true}>
         <Row style={{ border: "solid black", borderWidth: "thin" }}>
           <Col
             style={{

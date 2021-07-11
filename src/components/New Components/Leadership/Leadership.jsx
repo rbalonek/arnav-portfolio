@@ -12,7 +12,7 @@ export default function Leadership() {
   return (
     <div className="leadership__container">
       <div className="leadership__banner">
-        <h1>Leadership at School</h1>
+        <h1 className="title__banners">Leadership at School</h1>
       </div>
 
       <div className="leadership-card__holder">
@@ -38,7 +38,7 @@ export default function Leadership() {
         />
       </div>
       <div className="leadership__banner">
-        <h1>Leadership Outside School</h1>
+        <h1 className="title__banners">Leadership Outside School</h1>
       </div>
       <LeadershipOutside />
     </div>

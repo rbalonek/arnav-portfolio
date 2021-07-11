@@ -1,8 +1,10 @@
 .social-impact-slider__container {
 }
 .social-impact-slider__carousel-holder {
-  position: relative;
-  top: 70px;
+  /* position: relative;
+  top: 70px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .social-impact-slider__carousel {
   display: flex;
@@ -11,4 +13,13 @@
 }
 .social-impact-slider__image {
   height: 400px;
+}
+
+@media (max-width: 768px) {
+  .social-impact-slider__image {
+    height: 300px;
+  }
+}
+
+@media (max-width: 510px) {
 }

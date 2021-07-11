@@ -1,3 +1,18 @@
 .research__container {
   min-height: 100vh;
 }
+.container-text__container {
+  width: 90%;
+  position: relative;
+  top: 50px;
+  box-shadow: 2px 5px 3px 0 #0c0c0c;
+  background-color: blue;
+  color: white;
+}
+
+@media (max-width: 720px) {
+  .research__container {
+    position: relative;
+    top: 250px;
+  }
+}

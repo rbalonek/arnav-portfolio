@@ -16,7 +16,7 @@ export default function Landing() {
         <p>Be Worthy, Start Small and Make it BIG.</p>
       </div>
       <div className="landing__middle-third">
-        <img style={{ width: "100%" }} src={Headshot} alt="img" />
+        <img className="landing__image" src={Headshot} alt="img" />
       </div>
       <div className="landing__right-third">
         <AcaemicSlider />

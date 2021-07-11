@@ -17,7 +17,7 @@ export default function AcademicTable() {
       >
         Advanced Placement (AP Courses)
       </p>
-      <Table striped bordered>
+      <Table size="sm" striped bordered>
         <tbody>
           <tr>
             <th>Microeconomics 5</th>

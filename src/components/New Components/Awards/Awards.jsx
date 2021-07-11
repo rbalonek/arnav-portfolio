@@ -6,12 +6,12 @@ export default function Awards() {
   return (
     <div className="awards__container">
       <div className="leadership__banner">
-        <h1>Awards</h1>
+        <h1 className="title__banners">Awards</h1>
       </div>
 
       <div className="awards__text-carousel__container">
         <div className="awards__text">
-          <ul style={{ height: "90%" }}>
+          <ul className="awards__card" style={{ height: "90%" }}>
             <div
               style={{
                 display: "flex",

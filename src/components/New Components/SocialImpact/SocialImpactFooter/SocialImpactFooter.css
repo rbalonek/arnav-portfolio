@@ -1,8 +1,8 @@
 .social-impact-footer__container {
   /* height: 70px; */
   background-color: #0086dc;
-  position: relative;
-  top: 90px;
+  /* position: relative;
+  top: 90px; */
   display: flex;
   justify-content: space-around;
   border: solid black;
@@ -14,4 +14,25 @@
   text-align: center;
   color: white;
   padding-top: 10px;
+}
+@media (max-width: 768px) {
+  .social-impact-footer__text {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-size: small;
+  }
+}
+
+@media (max-width: 510px) {
+  .social-impact-footer__text {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-size: 8px;
+  }
 }

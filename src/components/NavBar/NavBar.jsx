@@ -32,7 +32,7 @@ const NavBar = () => {
             }}
             class="nav-item active"
           >
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="/#">
               408 816 4119
             </a>
           </li>

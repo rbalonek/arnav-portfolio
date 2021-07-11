@@ -7,7 +7,7 @@ export default function SocialImpact() {
   return (
     <div className="social-impact__container">
       <div className="social-impact__banner">
-        <h1>Social Impact</h1>
+        <h1 className="title__banners">Social Impact</h1>
       </div>
 
       <div className="social-impact__content-split">
@@ -19,13 +19,14 @@ export default function SocialImpact() {
             across the world.
           </p>
 
-          <p>Thethundershots. org Featured in Almaden Times</p>
+          <p>Thethundershots.org Featured in Almaden Times</p>
         </div>
         <div className="social-impact__right-two-thirds">
           <SocialImpactSlider />
         </div>
       </div>
-      <div style={{ position: "relative", top: "100px" }}>
+
+      <div className="social-impact__footer__holder">
         <SocialImpactFooter />
       </div>
     </div>
