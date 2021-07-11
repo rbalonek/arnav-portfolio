@@ -64,3 +64,23 @@
   width: 100%;
   padding: 20px;
 }
+.leadership-outside__kore-right {
+  height: 350px;
+  width: 350px;
+  min-width: 40vw;
+
+  border: solid black;
+  border-width: thin;
+  display: flex;
+  contain: content;
+  justify-content: center;
+  align-items: center;
+}
+.leadership-outside__kore-left {
+  height: 350px;
+  width: 350px;
+  /* margin-top: -200px; */
+  border: solid black;
+  border-width: thin;
+  min-width: 40vw;
+}

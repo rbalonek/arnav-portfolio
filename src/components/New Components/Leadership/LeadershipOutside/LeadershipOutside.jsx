@@ -5,6 +5,7 @@ import OrchaOne from "../../../../assets/OrchaHad.jpg";
 import OrchaTwo from "../../../../assets/Copy of A Reusable Straw, (3).png";
 
 import Paper from "../../../../assets/PaperBridges.png";
+import KoreKloudCarousel from "./KoreKloudCarousel/KoreKloudCarousel";
 
 export default function LeadershipOutside() {
   return (
@@ -69,6 +70,33 @@ export default function LeadershipOutside() {
           </p>
         </a>
         <p>“A Thunder Shots Partner”</p>
+      </div>
+
+      <div className="leadership-outside__kore-left">
+        <p className="leadership-outside__title">
+          Vice President Marketing at KoreKloud
+        </p>
+        <p style={{ fontWeight: "bold" }} className="leadership-outside__text">
+          “Manage Social Media Platforms to Engage 700+ students for over 25
+          courses”
+        </p>
+
+        <p style={{ fontWeight: "bold" }} className="leadership-outside__text">
+          “Oversee development of courses and management of workshops”
+        </p>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.korekloud.org"
+        >
+          <p style={{ textDecoration: "underline" }}>
+            https://www.korekloud.org
+          </p>
+        </a>
+        <p>“A Thunder Shots Partner”</p>
+      </div>
+      <div className="leadership-outside__kore-right">
+        <KoreKloudCarousel />
       </div>
     </div>
   );
