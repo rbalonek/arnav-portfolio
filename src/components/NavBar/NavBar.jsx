@@ -17,7 +17,7 @@ const NavBar = () => {
       expand="md"
       variant="dark"
     >
-      <Navbar.Brand style={{ fontSize: "35px" }} href="/#top">
+      <Navbar.Brand style={{ fontSize: "35px" }} href="/#">
         Arnav Jain
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -76,7 +76,7 @@ const NavBar = () => {
           </li>
 
           <li class="navbar-item">
-            <a href="#" class="nav-link">
+            <a href="#research" class="nav-link">
               Research
             </a>
           </li>
