@@ -4,6 +4,7 @@ import Landing from "../../components/New Components/Landing/Landing";
 import SocialImpact from "../../components/New Components/SocialImpact/SocialImpact";
 import AcademicAndSummer from "../../components/New Components/AcademicAndSummer/AcademicAndSummer";
 import Leadership from "../../components/New Components/Leadership/Leadership";
+import Awards from "../../components/New Components/Awards/Awards";
 
 export default function OnePage() {
   return (
@@ -18,6 +19,8 @@ export default function OnePage() {
       <AcademicAndSummer />
       <div id="leadership" style={{ position: "relative", bottom: "77px" }} />
       <Leadership />
+      <div id="awards" style={{ position: "relative", bottom: "77px" }} />
+      <Awards />
     </div>
   );
 }

@@ -1,0 +1,11 @@
+.awards-carousel__container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  /* top: 50px; */
+}
+.awards-carousel__item {
+  max-height: 400px;
+  width: 90%;
+}

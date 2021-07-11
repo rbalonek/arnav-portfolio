@@ -8,7 +8,8 @@
   text-align: center;
   contain: content;
   justify-content: space-between;
-  /* margin-bottom: 20px; */
+  box-shadow: 2px 5px 3px 0px #000;
+  margin-bottom: 10px;
 }
 .leadership-card__title {
   background-color: blue;

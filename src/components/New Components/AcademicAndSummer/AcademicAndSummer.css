@@ -36,6 +36,7 @@
   border-width: medium;
   justify-content: center;
   align-items: center;
+  box-shadow: 2px 5px 3px 0px #000;
 }
 .academic-summer__sat {
   height: 75px;
@@ -44,6 +45,7 @@
   border: solid black;
   border-width: medium;
   justify-content: center;
+  box-shadow: 2px 5px 3px 0px #000;
 }
 .academic-summer__top__right__container {
   width: 60vw;
@@ -75,6 +77,7 @@
   justify-content: space-around;
   border: solid black;
   border-width: medium;
+  box-shadow: 2px 5px 3px 0px #000;
 }
 .academic-summer__bottom__box-title {
   font-size: 15px;

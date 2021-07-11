@@ -70,7 +70,7 @@ const NavBar = () => {
           </li>
 
           <li class="navbar-item">
-            <a href="#" class="nav-link">
+            <a href="#awards" class="nav-link">
               Awards
             </a>
           </li>
