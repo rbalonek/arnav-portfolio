@@ -1,0 +1,138 @@
+.academic-summer__container {
+  min-height: 100vh;
+}
+.academic-summer__banner {
+  /* background-color: #4834d4;
+  background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%); */
+  background-color: #00185a;
+  height: 50px;
+  color: white;
+  text-align: center;
+  /* display: flex;
+  justify-content: center; */
+}
+.academic-summer__top__container {
+  display: flex;
+  position: relative;
+  top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.academic-summer__top__left__container {
+  width: 30vw;
+  height: 200px;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  color: white;
+}
+.academic-summer__gpa {
+  height: 75px;
+  /* width: 25vw; */
+  background-color: #0077d7;
+  display: flex;
+  border: solid black;
+  border-width: medium;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 5px 3px 0px #000;
+}
+.academic-summer__sat {
+  height: 75px;
+  /* width: 25vw; */
+  background-color: #0077d7;
+  border: solid black;
+  border-width: medium;
+  justify-content: center;
+  box-shadow: 2px 5px 3px 0px #000;
+}
+.academic-summer__top__right__container {
+  width: 60vw;
+  height: 200px;
+  /* background-color: orange; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.academic-summer__bottom__container {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: red; */
+  height: 150px;
+  position: relative;
+  top: 100px;
+}
+.academic-summer__bottom__box {
+  background-color: #0077d7;
+  color: white;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: solid black;
+  border-width: medium;
+  box-shadow: 2px 5px 3px 0px #000;
+}
+.academic-summer__bottom__box-title {
+  font-size: 25px;
+}
+.academic-summer__bottom__box-text {
+  font-size: 20px;
+}
+
+@media (max-width: 1250px) {
+  .academic-summer__bottom__container {
+    flex-wrap: wrap;
+  }
+  .academic-summer__container {
+    height: 1500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .academic-summer__top__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .academic-summer__top__left__container {
+    align-items: center;
+  }
+  .academic-summer__gpa {
+    height: 100px;
+    width: 200px;
+  }
+  .academic-summer__sat {
+    margin-top: 10px;
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .academic-summer__container {
+    height: 1900px;
+  }
+  .academic-summer__bottom__box {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 510px) {
+  .academic-summer__top__right__container {
+    margin-top: 40px;
+    align-items: center;
+  }
+}
+@media (max-width: 400px) {
+  .academic-summer__top__right__container {
+    margin-top: 60px;
+  }
+}

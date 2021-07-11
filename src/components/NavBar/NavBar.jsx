@@ -10,31 +10,74 @@ const NavBar = () => {
     navbar-dark
     
     sticky-top
-    navbar-expand-sm
+    navbar-expand-md
     blue
     "
       collapseOnSelect
-      expand="sm"
+      expand="md"
       variant="dark"
     >
-      <Navbar.Brand href="/#top">Arnav Jain</Navbar.Brand>
+      <Navbar.Brand style={{ fontSize: "35px" }} href="/#">
+        Arnav Jain
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
+        <ul class="navbar-nav">
+          <li
+            style={{
+              fontSize: "15px",
+              position: "absolute",
+              top: "20px",
+              left: "200px",
+            }}
+            class="nav-item active"
+          >
+            <a id="phone" class="nav-link" href="/#">
+              408 816 4119
+            </a>
+          </li>
+          <li
+            style={{
+              fontSize: "15px",
+              position: "absolute",
+              top: "40px",
+              left: "200px",
+            }}
+            class="nav-item active"
+          >
+            <a id="email" class="nav-link" href="#">
+              Arnav.jain@yahoo.com
+            </a>
+          </li>
+        </ul>
+
         <ul class="navbar-nav ml-auto">
+          <li class="navbar-item ">
+            <a href="#social-impact" class="nav-link">
+              Social Impact
+            </a>
+          </li>
+
           <li className="navbar-item">
-            <a href="/#academics" className="nav-link">
+            <a href="/#academic" className="nav-link">
               Academics
             </a>
           </li>
           <li class="navbar-item">
-            <a href="/#engagement" class="nav-link">
-              Engagement
+            <a href="#leadership" class="nav-link">
+              Leadership
             </a>
           </li>
 
           <li class="navbar-item">
-            <a href="/workexperience" class="nav-link">
-              Work Experience
+            <a href="#awards" class="nav-link">
+              Awards
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#research" class="nav-link">
+              Research
             </a>
           </li>
         </ul>

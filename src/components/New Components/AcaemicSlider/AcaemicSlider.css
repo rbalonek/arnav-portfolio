@@ -1,0 +1,18 @@
+.academic-slider__container {
+  /* contain: content; */
+}
+.academic-slider__carousel {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.carousel-indicators li {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 90%;
+}
+.carousel-control-next-icon {
+  color: black;
+}

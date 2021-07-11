@@ -1,0 +1,33 @@
+.leadership-card__container {
+  height: 250px;
+  width: 400px;
+  border: solid black;
+  border-width: thin;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  contain: content;
+  justify-content: space-between;
+  box-shadow: 2px 5px 3px 0px #000;
+  margin-bottom: 10px;
+}
+.leadership-card__title {
+  background-color: #0077d7;
+  color: white;
+}
+
+@media (max-width: 700px) {
+  .leadership-card__container {
+    height: 250px;
+    width: 300px;
+    border: solid black;
+    border-width: thin;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    contain: content;
+    justify-content: space-between;
+    box-shadow: 2px 5px 3px 0px #000;
+    margin-bottom: 10px;
+  }
+}

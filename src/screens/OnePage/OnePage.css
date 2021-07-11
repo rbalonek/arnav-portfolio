@@ -1,0 +1,43 @@
+.social {
+  position: relative;
+  bottom: 77px;
+}
+.academic {
+  position: relative;
+  bottom: 77px;
+}
+.leadership {
+  position: relative;
+  bottom: 77px;
+}
+.awards {
+  position: relative;
+  bottom: 77px;
+}
+.research {
+  position: relative;
+  bottom: 77px;
+}
+
+@media (max-width: 500px) {
+  .social {
+    position: relative;
+    bottom: 275px;
+  }
+  .academic {
+    position: relative;
+    bottom: 275px;
+  }
+  .leadership {
+    position: relative;
+    bottom: 275px;
+  }
+  .awards {
+    position: relative;
+    bottom: 275px;
+  }
+  .research {
+    position: relative;
+    bottom: 25px;
+  }
+}
