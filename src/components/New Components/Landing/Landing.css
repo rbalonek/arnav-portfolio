@@ -11,6 +11,10 @@
   flex-direction: column;
   justify-content: center;
   padding: 20px;
+  height: fit-content;
+  position: relative;
+  top: 150px;
+  font-size: 25px;
 }
 .landing__middle-third {
   width: 35vw;
@@ -26,7 +30,7 @@
   /* background-color: green; */
 }
 .landing__image {
-  width: 100%;
+  width: 500px;
 }
 
 @media (max-width: 1000px) {
@@ -44,6 +48,10 @@
     flex-direction: column;
     justify-content: center;
     /* padding: 20px; */
+    height: auto;
+    position: relative;
+    top: 0px;
+    font-size: 15px;
   }
   .landing__image {
     width: 300px;

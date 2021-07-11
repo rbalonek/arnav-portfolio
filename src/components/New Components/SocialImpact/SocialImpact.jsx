@@ -12,14 +12,19 @@ export default function SocialImpact() {
 
       <div className="social-impact__content-split">
         <div className="social-impact__left-one-third">
-          <p>THE THUNDER SHOTS FOUNDER AND CEO</p>
+          <h4>THE THUNDER SHOTS</h4>
+          <p> FOUNDER AND CEO</p>
 
           <p>
             Pursuing my passion to serve community and under privileged kids
             across the world.
           </p>
 
-          <p>Thethundershots.org Featured in Almaden Times</p>
+          <p>
+            <span style={{ color: "black" }}>
+              Thethundershots.org Featured in Almaden Times
+            </span>
+          </p>
         </div>
         <div className="social-impact__right-two-thirds">
           <SocialImpactSlider />

@@ -10,11 +10,13 @@
 .awards__text {
   width: 600px;
   height: 400px;
-  color: black;
+  /* color: black; */
   border: solid black;
   border-width: thin;
   box-shadow: 2px 5px 3px 0px #000;
   /* background-color: chocolate; */
+  background-color: #0077d7;
+  color: white;
 }
 .awards__carousel {
   width: 600px;

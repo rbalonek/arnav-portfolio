@@ -8,7 +8,7 @@ export default function AcademicTable() {
     <div>
       <p
         style={{
-          backgroundColor: "blue",
+          backgroundColor: "#0077d7",
           color: "white",
           width: "100%",
           position: "relative",
@@ -20,15 +20,15 @@ export default function AcademicTable() {
       <Table size="sm" striped bordered>
         <tbody>
           <tr>
-            <th>Microeconomics 5</th>
+            <th>Microeconomics - 5</th>
             <th>Physics A</th>
           </tr>
           <tr>
-            <th>Macroeconomics 5</th>
+            <th>Macroeconomics - 5</th>
             <th>Physics C - Mechanics</th>
           </tr>
           <tr>
-            <th>Calculus AB 5 </th>
+            <th>Calculus AB -5 </th>
             <th>Calculus BC</th>
           </tr>
           <tr>
