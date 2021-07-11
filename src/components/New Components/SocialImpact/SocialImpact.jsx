@@ -25,7 +25,9 @@ export default function SocialImpact() {
           <SocialImpactSlider />
         </div>
       </div>
-      <SocialImpactFooter />
+      <div style={{ position: "relative", top: "100px" }}>
+        <SocialImpactFooter />
+      </div>
     </div>
   );
 }

@@ -1,5 +1,9 @@
 .social-impact__container {
-  min-height: 100vh;
+  height: 100vh;
+  /* display: flex; */
+  /* flex-direction: column;
+  contain: content;
+  justify-content: space-between; */
 }
 .social-impact__banner {
   background-color: #4834d4;
