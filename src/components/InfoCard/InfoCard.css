@@ -1,16 +1,18 @@
 .info-card__container {
-  height: 400px;
+  height: 500px;
   width: 800px;
   /* background-color: #1b1c49; */
 
   /* background-color: #2a2a72;
   background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%); */
 
-  background-color: #4834d4;
-  background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
+  /* background-color: #4834d4;
+  background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%); */
 
   display: flex;
   /* z-index: 999; */
+
+  background-color: #a2afd1;
 }
 
 .top__anchor {
@@ -29,7 +31,7 @@
 }
 
 .info-card__headshot {
-  height: 400px;
+  height: 500px;
 }
 .info-card__text-container {
   position: relative;
@@ -49,7 +51,7 @@
     height: 70vh;
     /* width: 310px; */
     width: 90vw;
-    background-color: #1b1c49;
+    /* background-color: #1b1c49; */
     display: flex;
     /* z-index: 999; */
     flex-direction: column;
