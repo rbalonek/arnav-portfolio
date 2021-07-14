@@ -10,6 +10,7 @@ import KoreKloudCarousel from "./KoreKloudCarousel/KoreKloudCarousel";
 export default function LeadershipOutside() {
   return (
     <div className="leadership-outside__container">
+      <div className="leadership-outside" id="outside" />
       <div className="leadership-outside__orcha-left">
         <p className="leadership-outside__title">
           Blue Orca Co Founder and CFO

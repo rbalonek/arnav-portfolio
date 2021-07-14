@@ -5,6 +5,10 @@
   justify-content: center;
   text-align: center;
 }
+.leadership-outside {
+  position: relative;
+  bottom: 125px;
+}
 .leadership-outside__orcha-left {
   height: 350px;
   width: 350px;

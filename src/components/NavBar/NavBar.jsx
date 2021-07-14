@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavBar.css";
-import { Navbar } from "react-bootstrap";
+import { Navbar, NavDropdown } from "react-bootstrap";
 
 const NavBar = () => {
   return (
@@ -63,11 +63,12 @@ const NavBar = () => {
               Academics
             </a>
           </li>
-          <li class="navbar-item">
-            <a href="#leadership" class="nav-link">
-              Leadership
-            </a>
-          </li>
+
+          <NavDropdown title="Leadership" id="basic-nav-dropdown">
+            <NavDropdown.Item href="#leadership">At School</NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href="#outside">Outside School</NavDropdown.Item>
+          </NavDropdown>
 
           <li class="navbar-item">
             <a href="#awards" class="nav-link">
