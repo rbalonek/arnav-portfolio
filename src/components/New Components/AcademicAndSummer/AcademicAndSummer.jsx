@@ -46,9 +46,14 @@ export default function AcademicAndSummer() {
         </div>
 
         <div className="academic-summer__bottom__box">
-          <p className="academic-summer__bottom__box-title">LAUNCHX</p>
           <p
-            style={{ position: "relative", bottom: "15px", fontSize: "8px" }}
+            className="academic-summer__bottom__box-title"
+            style={{ top: "10px" }}
+          >
+            LAUNCHX
+          </p>
+          <p
+            style={{ position: "relative", bottom: "10px", fontSize: "15px" }}
             className="academic-summer__bottom__box-text"
           >
             (Formerly MIT)
