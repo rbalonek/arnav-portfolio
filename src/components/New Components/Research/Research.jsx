@@ -46,7 +46,7 @@ export default function Research() {
         </div>
 
         <div className="my-blogs__box">
-          <div className="box-title">
+          <div className="box-title" style={{ height: "75px" }}>
             <h2>Author</h2>
           </div>
           <div className="second-half__blogs">
