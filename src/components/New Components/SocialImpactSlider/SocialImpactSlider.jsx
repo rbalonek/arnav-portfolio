@@ -19,10 +19,10 @@ export default function SocialImpactSlider() {
     Two,
     Three,
     Four,
-    Five,
+    // Five,
     Six,
-    Seven,
-    Eight,
+    // Seven,
+    // Eight,
     Nine,
   ];
   return (

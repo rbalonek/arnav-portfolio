@@ -10,6 +10,10 @@ export default function SocialImpact() {
         <h1 className="title__banners">Social Impact</h1>
       </div>
 
+      <div className="social-impact__footer__holder">
+        <SocialImpactFooter />
+      </div>
+
       <div className="social-impact__content-split">
         <div className="social-impact__left-one-third">
           <h4>THE THUNDER SHOTS</h4>
@@ -29,10 +33,6 @@ export default function SocialImpact() {
         <div className="social-impact__right-two-thirds">
           <SocialImpactSlider />
         </div>
-      </div>
-
-      <div className="social-impact__footer__holder">
-        <SocialImpactFooter />
       </div>
     </div>
   );
