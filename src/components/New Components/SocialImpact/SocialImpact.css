@@ -32,6 +32,11 @@
   height: 400px;
   position: relative;
   top: 230px;
+  border: solid hsl(203, 100%, 43%);
+  color: black;
+  padding: 10px;
+  box-shadow: 2px 5px 3px 0 #0c0c0c;
+  border-width: thick;
 }
 .social-impact__right-two-thirds {
   width: 60vw;
