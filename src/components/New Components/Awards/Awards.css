@@ -22,6 +22,8 @@
   width: 600px;
   height: 400px;
   /* background-color: blue; */
+  background-color: #3276d0;
+  box-shadow: 2px 5px 3px 0px #000;
 }
 @media (max-width: 720px) {
   .awards__text-carousel__container {

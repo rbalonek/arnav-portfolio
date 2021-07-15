@@ -12,14 +12,30 @@
   text-align: center;
 }
 .social-impact-slider__image {
-  height: 400px;
+  height: 600px;
+  position: relative;
+  left: 20px;
 }
 
 @media (max-width: 768px) {
   .social-impact-slider__image {
     height: 300px;
   }
+  .social-impact-slider__carousel-holder {
+    /* position: relative;
+    top: 70px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 220px;
+  }
 }
 
-@media (max-width: 510px) {
+@media (max-width: 768px) {
+  .social-impact-slider__carousel-holder {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 120px;
+  }
 }

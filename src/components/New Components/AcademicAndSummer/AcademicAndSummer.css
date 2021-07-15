@@ -1,5 +1,5 @@
 .academic-summer__container {
-  min-height: 100vh;
+  height: 820px;
 }
 .academic-summer__banner {
   /* background-color: #4834d4;
@@ -65,12 +65,12 @@
   /* background-color: red; */
   height: 150px;
   position: relative;
-  top: 100px;
+  top: 200px;
 }
 .academic-summer__bottom__box {
   background-color: #0077d7;
   color: white;
-  height: 300px;
+  height: 200px;
   width: 300px;
   text-align: center;
   display: flex;
@@ -82,21 +82,27 @@
 }
 .academic-summer__bottom__box-title {
   font-size: 25px;
+  position: relative;
 }
 .academic-summer__bottom__box-text {
   font-size: 20px;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1200px) {
   .academic-summer__bottom__container {
     flex-wrap: wrap;
+    top: 50px;
   }
-  .academic-summer__container {
-    height: 1500px;
+
+  .academic-summer__bottom__box {
+    margin: 10px;
   }
 }
 
 @media (max-width: 768px) {
+  .academic-summer__container {
+    height: 1000px;
+  }
   .academic-summer__top__container {
     flex-direction: column;
     align-items: center;
@@ -118,7 +124,7 @@
 
 @media (max-width: 600px) {
   .academic-summer__container {
-    height: 1900px;
+    height: 1500px;
   }
   .academic-summer__bottom__box {
     margin-bottom: 10px;
@@ -134,5 +140,8 @@
 @media (max-width: 400px) {
   .academic-summer__top__right__container {
     margin-top: 60px;
+  }
+  .academic-summer__bottom__container {
+    top: 100px;
   }
 }
