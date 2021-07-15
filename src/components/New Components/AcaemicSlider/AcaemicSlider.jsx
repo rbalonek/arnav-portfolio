@@ -12,21 +12,21 @@ export default function AcaemicSlider() {
           className="academic-slider__carousel "
         >
           <CarouselItem>
-            <h3>Social Entrepreneur</h3>
+            <h3 className="carousel-text">Social Entrepreneur</h3>
           </CarouselItem>
           <CarouselItem>
-            <h3>Academics</h3>
-            <p>Unweighted GPA 4.0</p>
-            <p>SAT 1550</p>
+            <h3 className="carousel-text title">Academics</h3>
+            <p className="carousel-text">Unweighted GPA 4.0</p>
+            <p className="carousel-text">SAT 1550</p>
           </CarouselItem>
           <CarouselItem>
-            <h4>Founder/CEO of Thunder Shots</h4>
+            <h4 className="carousel-text">Founder/CEO of Thunder Shots</h4>
           </CarouselItem>
           <CarouselItem>
-            <h3>Competitive Soccer Player</h3>
+            <h3 className="carousel-text">Competitive Soccer Player</h3>
           </CarouselItem>
           <CarouselItem>
-            <h3>Author</h3>
+            <h3 className="carousel-text">Author</h3>
           </CarouselItem>
         </Carousel>
       </div>

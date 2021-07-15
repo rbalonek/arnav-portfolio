@@ -2,6 +2,8 @@
   /* contain: content; */
   position: relative;
   /* top: 400px; */
+  align-self: center;
+  width: 350px;
 }
 .academic-slider__background {
   background-color: #0086dc;
@@ -28,4 +30,19 @@
 }
 .carousel-control-next-icon {
   color: black;
+}
+@media (max-width: 1180px) {
+  .academic-slider__container {
+    /* contain: content; */
+    position: relative;
+    bottom: 100px;
+    align-self: center;
+    width: 250px;
+  }
+  .carousel-text {
+    font-size: 15px;
+  }
+  .title {
+    font-size: 20px;
+  }
 }

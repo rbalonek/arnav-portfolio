@@ -10,13 +10,16 @@ export default function Landing() {
     <div className="landing__container">
       <div className="landing__left-third">
         <div className="left-third__text-container">
-          <h4 style={{ textTransform: "lowercase" }}>
+          <h4
+            className="landing-text-left"
+            style={{ textTransform: "lowercase" }}
+          >
             <span style={{ textTransform: "uppercase" }}>A</span> RISING SENIOR
             WHO WOULD LIKE TO MAKE AN IMPACT IN THE LIFE OF UNDERPRIVILEDGED
             KIDS AROUND THE WORLD.
           </h4>
           <br />
-          <h4 style={{ color: "#0077D7" }}>
+          <h4 className="landing-text-left" style={{ color: "#0077D7" }}>
             Be Worthy, Start Small and Make it BIG.
           </h4>
         </div>
@@ -29,10 +32,12 @@ export default function Landing() {
       <div className="landing__right-third">
         <div className="landing__carousel-holder">
           <div className="landing__carousel-holder__btn-split">
-            <Button style={{ position: "relative", bottom: "50px" }}>
+            <Button variant="primary" className="transcripts-btn">
               Transcripts
             </Button>
-            <Button>Resume</Button>
+            <Button variant="primary" className="resume-btn">
+              Resume
+            </Button>
           </div>
           <AcaemicSlider />
         </div>
