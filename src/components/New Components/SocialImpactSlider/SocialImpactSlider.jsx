@@ -7,10 +7,10 @@ import One from "../../../assets/SocialImpactPics/pics with kids 1.jpg";
 import Two from "../../../assets/SocialImpactPics/pics with kids 3.jpg";
 import Three from "../../../assets/SocialImpactPics/pics with kids 4.jpg";
 import Four from "../../../assets/SocialImpactPics/Africa1.jpg";
-import Five from "../../../assets/SocialImpactPics/Africa2.jpg";
+// import Five from "../../../assets/SocialImpactPics/Africa2.jpg";
 import Six from "../../../assets/SocialImpactPics/IMG_3805.jpg";
-import Seven from "../../../assets/SocialImpactPics/Local1.jpg";
-import Eight from "../../../assets/SocialImpactPics/Local2.jpg";
+// import Seven from "../../../assets/SocialImpactPics/Local1.jpg";
+// import Eight from "../../../assets/SocialImpactPics/Local2.jpg";
 import Nine from "../../../assets/SocialImpactPics/Local3.jpg";
 
 export default function SocialImpactSlider() {

@@ -10,6 +10,7 @@
   text-align: -webkit-center;
   background-color: black;
   margin-bottom: 20px;
+  contain: content;
 }
 
 .engagement-modal__text {

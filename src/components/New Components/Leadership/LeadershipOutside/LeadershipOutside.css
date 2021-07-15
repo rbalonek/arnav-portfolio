@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   text-align: center;
+  justify-content: center;
 }
 .leadership-outside-nav-anchor {
   position: relative;
@@ -60,6 +61,18 @@
   min-width: 40vw;
 }
 
+.move-up-responsive {
+  position: relative;
+  bottom: 100px;
+}
+
+@media (max-width: 700px) {
+  .left-a-bit {
+    /* position: relative;
+    right: 30px; */
+  }
+}
+
 @media (max-width: 360px) {
   .leadership-outside__box {
     height: 500px;
@@ -69,5 +82,9 @@
     border: solid black;
     border-width: thin;
     /* background-color: blue; */
+  }
+  .move-up-responsive {
+    position: relative;
+    bottom: 115px;
   }
 }

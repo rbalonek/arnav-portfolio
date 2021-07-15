@@ -12,7 +12,7 @@ export default function LeadershipOutside() {
     <div className="leadership-outside__container">
       <div className="leadership-outside-nav-anchor" id="outside" />
 
-      <div className="leadership-outside__box">
+      <div className="leadership-outside__box left-a-bit">
         <p className="leadership-outside__title">
           Blue Orca Co Founder and CFO
         </p>
@@ -86,7 +86,10 @@ export default function LeadershipOutside() {
           courses”
         </p>
 
-        <p style={{ fontWeight: "bold" }} className="leadership-outside__text">
+        <p
+          style={{ fontWeight: "bold", marginBottom: "30px" }}
+          className="leadership-outside__text"
+        >
           “Oversee development of courses and management of workshops”
         </p>
         <div style={{ position: "relative", bottom: "100px" }}>
@@ -107,7 +110,10 @@ export default function LeadershipOutside() {
             https://www.korekloud.org
           </p>
         </a>
-        <p style={{ position: "relative", bottom: "100px" }}>
+        <p
+          className="move-up-responsive"
+          // style={{ position: "relative", bottom: "100px" }}
+        >
           “A Thunder Shots Partner”
         </p>
       </div>

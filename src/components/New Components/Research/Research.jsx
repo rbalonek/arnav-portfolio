@@ -1,9 +1,9 @@
 import React from "react";
 import "./Research.css";
 
-import Container from "react-bootstrap/Container";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+// import Container from "react-bootstrap/Container";
+// import Col from "react-bootstrap/Col";
+// import Row from "react-bootstrap/Row";
 
 export default function Research() {
   return (

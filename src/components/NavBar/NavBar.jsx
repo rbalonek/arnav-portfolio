@@ -45,7 +45,7 @@ const NavBar = () => {
             }}
             class="nav-item active"
           >
-            <a id="email" class="nav-link" href="#">
+            <a id="email" class="nav-link" href="/">
               Arnav.jain@yahoo.com
             </a>
           </li>

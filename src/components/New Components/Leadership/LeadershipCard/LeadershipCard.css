@@ -18,7 +18,7 @@
 
 @media (max-width: 700px) {
   .leadership-card__container {
-    height: 250px;
+    height: 300px;
     width: 300px;
     border: solid black;
     border-width: thin;
