@@ -7,7 +7,7 @@ export default function AcaemicSlider() {
     <div className="academic-slider__container">
       <div className="academic-slider__background">
         <Carousel
-          controls={true}
+          controls={false}
           indicators={true}
           className="academic-slider__carousel "
         >

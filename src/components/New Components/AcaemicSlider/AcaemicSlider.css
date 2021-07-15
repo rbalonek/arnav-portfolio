@@ -35,7 +35,7 @@
   .academic-slider__container {
     /* contain: content; */
     position: relative;
-    bottom: 100px;
+    /* bottom: 100px; */
     align-self: center;
     width: 250px;
   }
@@ -44,5 +44,12 @@
   }
   .title {
     font-size: 20px;
+  }
+}
+
+@media (width: 414px) {
+  .academic-slider__carousel {
+    position: relative;
+    bottom: 100px;
   }
 }

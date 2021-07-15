@@ -14,9 +14,9 @@ export default function Landing() {
             className="landing-text-left"
             style={{ textTransform: "lowercase" }}
           >
-            <span style={{ textTransform: "uppercase" }}>A</span> RISING SENIOR
-            WHO WOULD LIKE TO MAKE AN IMPACT IN THE LIFE OF UNDERPRIVILEDGED
-            KIDS AROUND THE WORLD.
+            <span style={{ textTransform: "uppercase" }}>a </span>
+            RISING SENIOR WHO WOULD LIKE TO MAKE AN IMPACT IN THE LIFE OF
+            UNDERPRIVILEDGED KIDS AROUND THE WORLD.
           </h4>
           <br />
           <h4 className="landing-text-left" style={{ color: "#0077D7" }}>
