@@ -32,6 +32,7 @@
   border: solid hsl(203, 100%, 43%);
   color: black;
   padding: 10px;
+  width: 300px;
 
   box-shadow: 2px 5px 3px 0 #0c0c0c;
 }
@@ -75,8 +76,8 @@
   
 } */
 .landing__image {
-  /* width: 500px; */
-  width: 70%;
+  width: 500px;
+  /* width: 70%; */
   position: relative;
   border: solid;
   box-shadow: -3px 5px 3px 0 #0c0c0c;
@@ -112,6 +113,16 @@
     position: relative;
     top: 100px;
     /* left: 25px; */
+  }
+}
+@media (max-width: 1115px) {
+  .left-third__text-container {
+    /* background-color: #0086dc; */
+    border: solid hsl(203, 100%, 43%);
+    color: black;
+    padding: 10px;
+    box-shadow: 2px 5px 3px 0 #0c0c0c;
+    width: fit-content;
   }
 }
 @media (max-width: 915px) {
