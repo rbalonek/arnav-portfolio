@@ -88,3 +88,15 @@
     box-shadow: 2px 5px 3px 0 #0c0c0c;
   }
 }
+@media (max-width: 400px) {
+  .social-impact-footer__text {
+    margin-left: 15px;
+    margin-right: 0px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    height: 70px;
+    background-color: #0086dc;
+    box-shadow: 2px 5px 3px 0 #0c0c0c;
+  }
+}

@@ -1,5 +1,5 @@
 .social-impact__container {
-  min-height: 800px;
+  min-height: 820px;
   /* height: 100vh; */
   display: flex;
   flex-direction: column;
@@ -50,6 +50,9 @@
 }
 
 @media (max-width: 768px) {
+  .social-impact__container {
+    /* height: 750px; */
+  }
   .social-impact__content-split {
     flex-direction: column;
     align-items: center;

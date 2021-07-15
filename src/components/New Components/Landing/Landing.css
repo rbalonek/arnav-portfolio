@@ -133,8 +133,8 @@
   .landing__carousel-holder {
     display: flex;
     flex-direction: column-reverse;
-    /* justify-content: space-around; */
-    /* height: 100%; */
+    position: relative;
+    left: 30px;
   }
   .academic-slider__container {
     /* contain: content; */
@@ -143,6 +143,17 @@
     align-self: center;
     width: 250px;
   }
+  .landing__carousel-holder__btn-split {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    width: fit-content;
+    align-self: center;
+    position: relative;
+    left: 25px;
+  }
 }
 
 @media (max-width: 430px) {
@@ -150,13 +161,30 @@
     width: 300px;
   }
   .landing__right-third {
-    width: auto;
+    width: 300px;
     position: relative;
     bottom: 100px;
-    left: 20px;
+    /* left: 50px; */
+  }
+  .academic-slider__container {
+    /* contain: content; */
+    width: 250px;
+    left: 25px;
   }
   .landing__carousel-holder__btn-split {
     position: relative;
     top: 50px;
+    left: 25px;
+  }
+}
+@media (max-width: 350px) {
+  .landing__carousel-holder {
+    display: flex;
+    flex-direction: column-reverse;
+    /* justify-content: space-around; */
+    /* height: 100%; */
+    width: 100%;
+    position: relative;
+    left: 0;
   }
 }
