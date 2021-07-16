@@ -1,6 +1,6 @@
 .social-impact__container {
-  min-height: 820px;
-  /* height: 100vh; */
+  /* min-height: 820px; */
+  height: 100vh;
   display: flex;
   flex-direction: column;
   /* contain: content; */
@@ -19,6 +19,7 @@
   justify-content: center;
   position: relative;
   bottom: 100px;
+  /* background-color: aqua; */
 }
 .social-impact__left-one-third {
   width: 30vw;
@@ -31,7 +32,7 @@
   box-shadow: 2px 5px 3px 0px #0c0c0c;
   height: 400px;
   position: relative;
-  top: 230px;
+  /* top: 230px; */
   border: solid hsl(203, 100%, 43%);
   color: black;
   padding: 10px;
@@ -40,8 +41,8 @@
 }
 .social-impact__right-two-thirds {
   width: 60vw;
-  position: relative;
-  top: 100px;
+  /* position: relative;
+  top: 10px; */
   /* background-color: cadetblue; */
 }
 .social-impact__footer__holder {
@@ -79,5 +80,19 @@
   .social-impact__footer__holder {
     /* width: 100vw; */
     text-align: -webkit-center;
+  }
+}
+
+@media (max-height: 800px) {
+  .social-impact__content-split {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+  }
+}
+@media (max-height: 655px) {
+  .social-impact__left-one-third {
+    height: 250px;
   }
 }
