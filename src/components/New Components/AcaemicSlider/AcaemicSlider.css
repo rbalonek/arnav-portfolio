@@ -37,7 +37,7 @@
     position: relative;
     /* bottom: 100px; */
     align-self: center;
-    width: 250px;
+    /* width: 250px; */
   }
   .carousel-text {
     font-size: 15px;
@@ -46,10 +46,54 @@
     font-size: 20px;
   }
 }
-
-@media (width: 414px) {
-  .academic-slider__carousel {
+@media (max-width: 520px) {
+  .academic-slider__background {
+    background-color: #0086dc;
+    color: white;
+    height: 100px;
     position: relative;
     bottom: 100px;
+    box-shadow: 2px 5px 3px 0 #0c0c0c;
+    display: flex;
+    flex-direction: column;
+    border-width: thick;
+    width: 100%;
+  }
+  .academic-slider__container {
+    /* contain: content; */
+    width: 250px;
+    right: 0px;
+  }
+}
+
+@media (max-height: 520px) {
+  .academic-slider__background {
+    background-color: #0086dc;
+    color: white;
+    height: 100px;
+    position: relative;
+    bottom: 100px;
+    box-shadow: 2px 5px 3px 0 #0c0c0c;
+    display: flex;
+    flex-direction: column;
+    border-width: thick;
+  }
+}
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+    .academic-slider__carousel {
+      position: relative;
+      bottom: 50px;
+    }
+    .carousel-indicators {
+      display: none;
+    }
+    @media screen and (max-width: 420px) and (min-width: 400px) {
+      .academic-slider__carousel {
+        position: relative;
+        bottom: 110px;
+      }
+    }
   }
 }

@@ -7,7 +7,7 @@ export default function SocialImpact() {
   return (
     <div className="social-impact__container">
       <div className="social-impact__banner">
-        <h1 className="title__banners">Social Impact</h1>
+        <h1 className="title__banners snuge-up">Social Impact</h1>
       </div>
 
       <div className="social-impact__footer__holder">

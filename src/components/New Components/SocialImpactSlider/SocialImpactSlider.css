@@ -1,4 +1,6 @@
 .social-impact-slider__container {
+  position: relative;
+  bottom: 20px;
 }
 .social-impact-slider__carousel-holder {
   /* position: relative;
@@ -12,7 +14,7 @@
   text-align: center;
 }
 .social-impact-slider__image {
-  height: 600px;
+  height: 450px;
   position: relative;
   left: 20px;
 }
@@ -29,6 +31,10 @@
     position: relative;
     bottom: 220px;
   }
+  .social-impact-slider__container {
+    position: relative;
+    bottom: 80px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -37,5 +43,18 @@
     padding-bottom: 20px;
     position: relative;
     bottom: 120px;
+  }
+}
+
+@media (max-height: 805px) {
+  .social-impact-slider__carousel {
+    height: 400px;
+    object-fit: scale-down;
+  }
+}
+@media (max-height: 655px) {
+  .social-impact-slider__carousel {
+    height: 300px;
+    object-fit: scale-down;
   }
 }
