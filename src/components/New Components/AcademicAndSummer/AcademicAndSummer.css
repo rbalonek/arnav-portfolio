@@ -1,5 +1,5 @@
 .academic-summer__container {
-  height: 820px;
+  height: 100vh;
 }
 .academic-summer__banner {
   /* background-color: #4834d4;
@@ -143,5 +143,44 @@
   }
   .academic-summer__bottom__container {
     top: 100px;
+  }
+}
+
+@media (max-height: 730px) {
+  .academic-summer__bottom__container {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: red; */
+    height: 150px;
+    position: relative;
+    top: 40px;
+  }
+}
+@media (max-height: 575px) {
+  /* .academic-summer__bottom__container {
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    position: relative;
+    top: 40px; 
+  } */
+  .academic-summer__bottom__box {
+    background-color: #0077d7;
+    color: white;
+    height: 150px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: solid black;
+    border-width: medium;
+    box-shadow: 2px 5px 3px 0px #000;
+  }
+  .academic-summer__bottom__box-text {
+    font-size: smaller;
+  }
+  .academic-summer__bottom__box-title {
+    font-size: small;
   }
 }
