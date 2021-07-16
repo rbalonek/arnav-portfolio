@@ -42,3 +42,12 @@
     width: 300px;
   }
 }
+
+@media (max-height: 630px) {
+  .awards__text-carousel__container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+  }
+}

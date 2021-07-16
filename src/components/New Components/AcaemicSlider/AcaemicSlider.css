@@ -67,3 +67,15 @@
     border-width: thick;
   }
 }
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+    .academic-slider__carousel {
+      position: relative;
+      bottom: 50px;
+    }
+    .carousel-indicators {
+      display: none;
+    }
+  }
+}

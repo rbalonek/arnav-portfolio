@@ -8,7 +8,7 @@ export default function AcaemicSlider() {
       <div className="academic-slider__background">
         <Carousel
           controls={false}
-          indicators={true}
+          indicators={false}
           className="academic-slider__carousel "
         >
           <CarouselItem>
