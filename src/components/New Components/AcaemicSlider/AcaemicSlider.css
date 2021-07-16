@@ -37,7 +37,8 @@
     position: relative;
     /* bottom: 100px; */
     align-self: center;
-    width: 250px;
+    /* width: 250px; */
+    width: 100vw;
   }
   .carousel-text {
     font-size: 15px;
@@ -46,11 +47,17 @@
     font-size: 20px;
   }
 }
-
-@media (width: 414px) {
-  .academic-slider__carousel {
+@media (max-width: 520px) {
+  .academic-slider__background {
+    background-color: #0086dc;
+    color: white;
+    height: 100px;
     position: relative;
     bottom: 100px;
+    box-shadow: 2px 5px 3px 0 #0c0c0c;
+    display: flex;
+    flex-direction: column;
+    border-width: thick;
   }
 }
 
@@ -76,6 +83,12 @@
     }
     .carousel-indicators {
       display: none;
+    }
+    @media screen and (max-width: 420px) and (min-width: 400px) {
+      .academic-slider__carousel {
+        position: relative;
+        bottom: 110px;
+      }
     }
   }
 }
