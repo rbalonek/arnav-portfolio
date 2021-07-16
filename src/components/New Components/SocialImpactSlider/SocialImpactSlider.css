@@ -31,6 +31,10 @@
     position: relative;
     bottom: 220px;
   }
+  .social-impact-slider__container {
+    position: relative;
+    bottom: 80px;
+  }
 }
 
 @media (max-width: 768px) {
