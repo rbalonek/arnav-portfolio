@@ -1,6 +1,6 @@
 .landing__container {
-  min-height: 850px;
-  /* max-height: 100vh; */
+  /* min-height: 850px; */
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   /* align-items: center; */
@@ -15,6 +15,7 @@
 .landing__left-third {
   /* width: 30vw; */
   width: 25vw;
+  height: 100vh;
   text-align: center;
   /* background-color: red; */
   display: flex;
@@ -33,7 +34,6 @@
   color: black;
   padding: 10px;
   width: 300px;
-
   box-shadow: 2px 5px 3px 0 #0c0c0c;
 }
 .landing__carousel-holder {
@@ -63,6 +63,7 @@
   contain: content;
   position: relative;
   /* top: 30px; */
+  height: 100vh;
 }
 .landing__right-third {
   width: 30vw;
@@ -76,13 +77,14 @@
   
 } */
 .landing__image {
-  width: 500px;
+  /* width: 500px; */
+  height: 80vh;
   /* width: 70%; */
   position: relative;
   border: solid;
   box-shadow: -3px 5px 3px 0 #0c0c0c;
   border-radius: 2%;
-  top: 50px;
+  top: 10px;
 }
 .transcripts-btn {
   position: relative;
@@ -213,5 +215,12 @@
     width: 100%;
     position: relative;
     left: 0;
+  }
+}
+
+@media (max-height: 520px) {
+  .left-third__text-container {
+    position: relative;
+    bottom: 130px;
   }
 }

@@ -53,3 +53,17 @@
     bottom: 100px;
   }
 }
+
+@media (max-height: 520px) {
+  .academic-slider__background {
+    background-color: #0086dc;
+    color: white;
+    height: 100px;
+    position: relative;
+    bottom: 100px;
+    box-shadow: 2px 5px 3px 0 #0c0c0c;
+    display: flex;
+    flex-direction: column;
+    border-width: thick;
+  }
+}
