@@ -60,15 +60,15 @@ const NavBar = () => {
 
           <li className="navbar-item">
             <a href="/#academic" className="nav-link">
-              Academics
+              Education
             </a>
           </li>
 
-          <NavDropdown title="Leadership" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#leadership">At School</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#outside">Outside School</NavDropdown.Item>
-          </NavDropdown>
+          <li className="navbar-item">
+            <a href="/#leadership" className="nav-link">
+              Leadership
+            </a>
+          </li>
 
           <li class="navbar-item">
             <a href="#awards" class="nav-link">
