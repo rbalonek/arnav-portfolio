@@ -182,7 +182,7 @@
 @media (max-width: 510px) {
   .academic-summer__top__right__container {
     margin-top: 40px;
-    align-items: center;
+    /* align-items: center; */
   }
 }
 @media (max-width: 400px) {
