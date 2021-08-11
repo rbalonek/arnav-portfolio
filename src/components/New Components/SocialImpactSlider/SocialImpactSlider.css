@@ -19,9 +19,9 @@
   left: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .social-impact-slider__image {
-    height: 300px;
+    height: 200px;
   }
   .social-impact-slider__carousel-holder {
     /* position: relative;
@@ -29,20 +29,11 @@
     padding-top: 20px;
     padding-bottom: 20px;
     position: relative;
-    bottom: 220px;
+    bottom: 140px;
   }
   .social-impact-slider__container {
     position: relative;
     bottom: 80px;
-  }
-}
-
-@media (max-width: 768px) {
-  .social-impact-slider__carousel-holder {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    position: relative;
-    bottom: 120px;
   }
 }
 

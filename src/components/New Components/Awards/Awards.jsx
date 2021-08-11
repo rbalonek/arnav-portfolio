@@ -11,7 +11,7 @@ export default function Awards() {
 
       <div className="awards__text-carousel__container">
         <div className="awards__text">
-          <ul className="awards__card" style={{ height: "90%" }}>
+          <ul className="awards__card" style={{ height: "100%" }}>
             <div
               style={{
                 display: "flex",
@@ -20,18 +20,16 @@ export default function Awards() {
                 height: "100%",
               }}
             >
-              <li>Stanford Varsity LD DEBATE finalist (National)</li>
-              <li>FBLA 5 th place Management Decision Making (State)</li>
-              <li>JV All League best defender award 2020</li>
+              <li>Stanford Varsity LD Debate Triple-Octafinalist (National)</li>
               <li>
-                {" "}
-                Best student in Physics in 11 th grade (Red White Blue Award)
+                FBLA 5th place Management Decision Making (Regional & State
+                Levels, Qualified for Nationals)
               </li>
-              <li>Top student (9%) of school (UC ELC program)</li>
-              <li>Stephen Stewart Varsity LD debate finalist (Regional)</li>
+              <li>All League Best Defender award/Won League</li>
+              <li>Red White Blue Award for best AP Physics C Student</li>
               <li>Gold Presidential Volunteering Service Award</li>
-              <li>JV Most improved player award 2019</li>
-              <li>Qualified for International Surf cup (Liverpool)</li>
+              <li>Stephen Stewart Varsity LD debate Double-Octafinalist</li>
+              <li>Santa Clara MUN Outstanding Speaker</li>
             </div>
           </ul>
         </div>

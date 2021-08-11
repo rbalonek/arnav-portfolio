@@ -1,14 +1,10 @@
 .social-impact__container {
-  /* min-height: 820px; */
   height: 100vh;
   display: flex;
   flex-direction: column;
-  /* contain: content; */
   justify-content: space-between;
 }
 .social-impact__banner {
-  /* background-color: #4834d4;
-  background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%); */
   background-color: #00185a;
   height: 50px;
   color: white;
@@ -18,12 +14,10 @@
   display: flex;
   justify-content: center;
   position: relative;
-  bottom: 100px;
-  /* background-color: aqua; */
+  bottom: 0px;
 }
 .social-impact__left-one-third {
   width: 30vw;
-  /* background-color: brown; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,11 +27,12 @@
   height: 400px;
   position: relative;
   /* top: 230px; */
-  border: solid hsl(203, 100%, 43%);
+  border: solid black;
+  /* border: solid hsl(203, 100%, 43%); */
   color: black;
   padding: 10px;
   box-shadow: 2px 5px 3px 0 #0c0c0c;
-  border-width: thick;
+  border-width: medium;
 }
 .social-impact__right-two-thirds {
   width: 60vw;
@@ -47,7 +42,45 @@
 }
 .social-impact__footer__holder {
   position: relative;
-  bottom: 0px;
+  /* bottom: 150px; */
+}
+
+.social-impact__title {
+  color: #3984cf;
+  /* font-size: xx-large; */
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+.social-impact__sub-title {
+  color: #3984cf;
+}
+.social-impact__text {
+  color: #3984cf;
+  font-size: 22px;
+}
+.social-impact__text-link {
+  color: #3984cf;
+  font-size: 25px;
+}
+
+@media (max-width: 1100px) {
+  .social-impact__title {
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  .social-impact__sub-title {
+    font-size: 20px;
+  }
+  .social-impact__text {
+    color: #3984cf;
+    font-size: 18px;
+  }
+  .social-impact__text-link {
+    color: #3984cf;
+    font-size: 25px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -63,13 +96,15 @@
     font-size: 15px;
     width: 80%;
     margin-bottom: 310px;
-    height: 200px;
+    height: 300px;
     position: relative;
     top: 100px;
   }
   .social-impact__footer__holder {
     position: relative;
-    bottom: 0px;
+    bottom: 10px;
+    margin-bottom: -40px;
+    text-align: -webkit-center;
   }
 }
 
@@ -87,6 +122,25 @@
   .snuge-up {
     position: relative;
     margin-bottom: 40px;
+  }
+}
+
+@media (min-height: 1080px) {
+  .social-impact__content-split {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 150px;
+  }
+  .social-impact__footer__holder {
+    position: relative;
+    bottom: 100px;
+  }
+  .impact-slider__image {
+    height: 450px;
+    position: relative;
+    left: 20px;
+    width: 800px;
   }
 }
 
