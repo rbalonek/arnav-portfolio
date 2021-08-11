@@ -28,9 +28,7 @@ export default function AcademicAndSummer() {
       <div className="academic-summer__bottom__container">
         <div className="academic-summer__bottom__box">
           <p className="academic-summer__bottom__box-title">HARKER SCHOOL</p>
-          <p className="academic-summer__bottom__box-text">
-            Micro and Macro Economics
-          </p>
+          <p className="academic-summer__bottom__box-text">Economics</p>
           <p className="academic-summer__bottom__box-text">( Summer 2019)</p>
         </div>
         <div className="academic-summer__bottom__box">
@@ -59,7 +57,7 @@ export default function AcademicAndSummer() {
             (Formerly MIT)
           </p>
           <p className="academic-summer__bottom__box-text">
-            ENTERPRENEURIAL PROGRAM (SUMMER 2020)
+            ENTREPRENEURSHIP PROGRAM (SUMMER 2020)
           </p>
           <p className="academic-summer__bottom__box-text">
             LAUNCHED BLUE ORCA

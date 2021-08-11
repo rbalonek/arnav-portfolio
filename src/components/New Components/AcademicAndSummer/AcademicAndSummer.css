@@ -68,10 +68,11 @@
   top: 200px;
 }
 .academic-summer__bottom__box {
-  background-color: #0077d7;
-  color: white;
+  background-color: white;
+  color: #0077d7;
   height: 200px;
   width: 300px;
+  font-weight: 800;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -85,7 +86,7 @@
   position: relative;
 }
 .academic-summer__bottom__box-text {
-  font-size: 20px;
+  font-size: 19px;
 }
 
 @media (max-width: 1200px) {
