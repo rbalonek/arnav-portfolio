@@ -6,6 +6,7 @@ import AcademicAndSummer from "../../components/New Components/AcademicAndSummer
 import Leadership from "../../components/New Components/Leadership/Leadership";
 import Awards from "../../components/New Components/Awards/Awards";
 import Research from "../../components/New Components/Research/Research";
+import NewResearch from "../../components/New Components/Research/NewResearch/NewResearch";
 
 export default function OnePage() {
   return (
@@ -20,7 +21,7 @@ export default function OnePage() {
       <div className="awards" id="awards" />
       <Awards />
       <div className="research" id="research" />
-      <Research />
+      <NewResearch />
     </div>
   );
 }

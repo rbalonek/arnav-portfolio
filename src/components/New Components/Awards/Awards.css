@@ -32,7 +32,7 @@
   /* background-color: #3276d0; */
   /* box-shadow: 2px 5px 3px 0px #000; */
 }
-@media (max-width: 720px) {
+@media (max-width: 715px) {
   .awards__text-carousel__container {
     font-size: 10px;
   }
@@ -40,13 +40,18 @@
     flex-direction: column;
     align-items: center;
   }
+
   .awards__carousel {
     position: relative;
     top: 30px;
     width: auto;
+    border: none;
   }
   .awards__text {
-    width: 300px;
+    width: 90%;
+  }
+  .awards__container {
+    margin-bottom: 150px;
   }
 }
 

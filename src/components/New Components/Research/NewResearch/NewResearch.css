@@ -1,0 +1,97 @@
+.new-research__container {
+}
+.new-research__research-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.new-research__box-title {
+  height: 200px;
+  width: 400px;
+  background-color: #0077d7;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.new-research__research-one {
+  height: 200px;
+  width: 30%;
+  border: solid black;
+  border-width: thin;
+  color: #0077d7;
+  padding: 10px;
+}
+.new-research__research-two {
+  height: 200px;
+  width: 30%;
+  border: solid black;
+  border-width: thin;
+  color: #0077d7;
+  padding: 10px;
+}
+.italic {
+  font-style: italic;
+  cursor: pointer;
+}
+.new-research__research-title {
+  font-weight: 800;
+}
+.new-research__research-text {
+  font-size: 20px;
+}
+
+.new-research__author {
+  /* height: 200px; */
+  width: 67%;
+  border: solid black;
+  border-width: thin;
+  color: #0077d7;
+  padding: 10px;
+}
+
+@media (max-width: 1015px) {
+  .new-research__research-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .new-research__box-title {
+    height: 200px;
+    /* width: 300px; */
+    width: 90%;
+    background-color: #0077d7;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .new-research__research-one {
+    height: 200px;
+    width: 90%;
+    border: solid black;
+    border-width: thin;
+    color: #0077d7;
+    padding: 10px;
+  }
+  .new-research__research-two {
+    height: 200px;
+    width: 90%;
+    border: solid black;
+    border-width: thin;
+    color: #0077d7;
+    padding: 10px;
+  }
+  .new-research__author {
+    width: 90%;
+    border: solid black;
+    border-width: thin;
+    color: #0077d7;
+    padding: 10px;
+  }
+}
