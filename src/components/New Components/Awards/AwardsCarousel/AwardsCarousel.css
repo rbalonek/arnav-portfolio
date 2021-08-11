@@ -6,7 +6,7 @@
   /* top: 50px; */
 }
 .awards-carousel__item {
-  height: 400px;
+  height: 600px;
   width: 90%;
   object-fit: contain;
 }
