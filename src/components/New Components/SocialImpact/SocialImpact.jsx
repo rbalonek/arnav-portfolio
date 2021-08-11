@@ -28,7 +28,7 @@ export default function SocialImpact() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="Thethundershots.org"
+              href="https://www.thethundershots.org"
               alt="thundershots"
             >
               <span style={{ color: "#3984cf" }}>Thethundershots.org</span>
