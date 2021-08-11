@@ -30,7 +30,7 @@ export default function SocialImpactSlider() {
       <div className="social-impact-slider__carousel-holder">
         <Carousel
           controls={true}
-          indicators={true}
+          indicators={false}
           className="social-impact-slider__carousel "
         >
           {imagesForCarousel.map((pic) => (

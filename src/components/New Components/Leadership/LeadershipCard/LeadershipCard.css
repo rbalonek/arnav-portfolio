@@ -39,6 +39,9 @@
     box-shadow: 2px 5px 3px 0px #000;
     margin-bottom: 10px;
   }
+  .leadership-card__img {
+    bottom: 40px;
+  }
 }
 
 @media (max-height: 661px) {
