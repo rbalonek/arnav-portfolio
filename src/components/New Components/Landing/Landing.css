@@ -4,11 +4,11 @@
 }
 .line {
   border-left: 6px solid #3984cf;
-  height: 600px;
+  height: 570px;
   position: absolute;
   left: 90%;
   margin-left: -3px;
-  top: 20%;
+  top: 22%;
 }
 .landing__image {
   height: 80vh;
