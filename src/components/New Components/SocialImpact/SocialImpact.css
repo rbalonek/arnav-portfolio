@@ -137,6 +137,9 @@
     position: relative;
     margin-bottom: 40px;
   }
+  /* .social-impact__container {
+    min-height: 500px;
+  } */
 }
 
 @media (min-height: 1080px) {

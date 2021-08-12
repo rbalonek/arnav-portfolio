@@ -277,6 +277,9 @@
     height: 300px;
     width: auto;
   }
+  .landing__container {
+    min-height: 800px;
+  }
 }
 @media (max-width: 350px) {
 }

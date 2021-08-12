@@ -4,7 +4,8 @@ import AcademicAndSummer from "../components/New Components/AcademicAndSummer/Ac
 import Awards from "../components/New Components/Awards/Awards";
 import Landing from "../components/New Components/Landing/Landing";
 import Leadership from "../components/New Components/Leadership/Leadership";
-import Research from "../components/New Components/Research/Research";
+import NewResearch from "../components/New Components/Research/NewResearch/NewResearch";
+// import Research from "../components/New Components/Research/Research";
 import SocialImpact from "../components/New Components/SocialImpact/SocialImpact";
 
 export default function MultiPageContainer() {
@@ -23,7 +24,7 @@ export default function MultiPageContainer() {
       </Route>
 
       <Route path="/research">
-        <Research />
+        <NewResearch />
       </Route>
 
       <Route path="/">
