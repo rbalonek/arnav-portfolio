@@ -53,31 +53,31 @@ const NavBar = () => {
 
         <ul class="navbar-nav ml-auto">
           <li class="navbar-item ">
-            <a href="#social-impact" class="nav-link">
+            <a href="/#social-impact" class="nav-link">
               Social Impact
             </a>
           </li>
 
           <li className="navbar-item">
-            <a href="/#academic" className="nav-link">
+            <a href="/education" className="nav-link">
               Education
             </a>
           </li>
 
           <li className="navbar-item">
-            <a href="/#leadership" className="nav-link">
+            <a href="/leadership" className="nav-link">
               Leadership
             </a>
           </li>
 
           <li class="navbar-item">
-            <a href="#awards" class="nav-link">
+            <a href="/awards" class="nav-link">
               Awards
             </a>
           </li>
 
           <li class="navbar-item">
-            <a href="#research" class="nav-link">
+            <a href="/research" class="nav-link">
               Research
             </a>
           </li>

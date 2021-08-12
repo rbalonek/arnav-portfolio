@@ -55,6 +55,15 @@
   }
 }
 
+@media (max-height: 801px) {
+  .awards__text-carousel__container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+  }
+}
+
 @media (max-height: 630px) {
   .awards__text-carousel__container {
     display: flex;
@@ -62,4 +71,8 @@
     position: relative;
     top: 30px;
   }
+  /* .awards__carousel {
+    position: relative;
+    bottom: 100px;
+  } */
 }

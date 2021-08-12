@@ -23,7 +23,11 @@ export default function AcademicAndSummer() {
         </div>
 
         <div className="academic-summer__top__right__container">
-          <img src={AcademicImg} alt="academic-grid" />
+          <img
+            className="academic-img-graph"
+            src={AcademicImg}
+            alt="academic-grid"
+          />
         </div>
       </div>
 

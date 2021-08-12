@@ -65,6 +65,19 @@
   font-size: 25px;
 }
 
+@media (max-height: 801px) {
+  .social-impact__container {
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .social-impact__right-two-thirds {
+    position: relative;
+    top: 50px;
+  }
+}
+
 @media (max-width: 1100px) {
   .social-impact__title {
     font-size: 25px;
@@ -124,6 +137,9 @@
     position: relative;
     margin-bottom: 40px;
   }
+  /* .social-impact__container {
+    min-height: 500px;
+  } */
 }
 
 @media (min-height: 1080px) {
