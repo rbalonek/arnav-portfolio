@@ -17,10 +17,10 @@ export default function Landing() {
         <div className="landing__right">
           <div className="landing__buttons">
             <a download href={Resume} alt="resume">
-              <button className="landing__btn">Transcript</button>
+              <button className="landing__btn">Resume</button>
             </a>
             <a download href={Transcript} alt="transcript">
-              <button className="landing__btn">Resume</button>
+              <button className="landing__btn">Transcript</button>
             </a>
           </div>
           <div className="landing__words">
@@ -49,6 +49,7 @@ export default function Landing() {
           </div>
         </div>
       </div>
+      <div className="line"></div>
     </div>
   );
 }
