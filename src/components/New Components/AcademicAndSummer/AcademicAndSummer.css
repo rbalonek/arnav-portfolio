@@ -86,7 +86,7 @@
   color: #0077d7;
   height: 250px;
   width: 350px;
-  font-weight: 800;
+
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -98,11 +98,14 @@
 .academic-summer__bottom__box-title {
   font-size: 30px;
   position: relative;
+  font-weight: 800;
 }
 .academic-summer__bottom__box-text {
   font-size: 22px;
 }
-
+.italic {
+  font-style: italic;
+}
 @media (max-width: 1200px) {
   .academic-summer__bottom__container {
     flex-wrap: wrap;
