@@ -23,13 +23,12 @@ export default function LeadershipOutside() {
               style={{ fontWeight: "bold" }}
               className="leadership-outside__text"
             >
-              “A reusable straw with a path breaking design” to keep our oceans
-              plastic free.
+              “A reusable straw in a stylish bracelet” to keep our oceans
+              plastic free."
             </p>
 
             <p className="leadership-outside__text">
-              From ‘Conceptualization’ to ‘Bringing product to Market’. As part
-              of LaunchX program.
+              From ‘Conceptualization’ to ‘Bringing product to Market’.
             </p>
             <a
               target="_blank"
@@ -62,10 +61,10 @@ export default function LeadershipOutside() {
           <div className="bridges__left">
             <p
               style={{ fontWeight: "bold" }}
-              className="leadership-outside__text down-a-bit"
+              className="leadership-outside__text "
             >
               “Started 18 Chapters in California and paired them with Orphanages
-              across the Globe”
+              across the Globe to conduct many projects”
             </p>
           </div>
 
@@ -79,11 +78,10 @@ export default function LeadershipOutside() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.paper
-        bridges.org/"
+              href="https://www.paper-bridges.org/"
             >
               <p className="leadership-outside__text">
-                https://www.paper bridges.org/
+                https://www.paper-bridges.org/
               </p>
             </a>
             <p>“A Thunder Shots Partner”</p>
@@ -99,7 +97,7 @@ export default function LeadershipOutside() {
         }}
       >
         <p className="leadership-outside__title">
-          Vice President Marketing at KoreKloud
+          Vice President of Marketing: KoreKloud
         </p>
 
         <div className="kore-split">
@@ -116,7 +114,8 @@ export default function LeadershipOutside() {
               style={{ fontWeight: "bold", marginBottom: "30px" }}
               className="leadership-outside__text"
             >
-              “Oversee development of courses and management of workshops”
+              “Developed intensive business, finance, and economics curriculums
+              garnering 100+ students from 5 countries”
             </p>
           </div>
           <div className="kore-right">

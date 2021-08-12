@@ -10,15 +10,17 @@ export default function LeadershipCard(props) {
         <p className="leadership-card__subtitle">{props.subtitle}</p>
       )}
       <a target="_blank" rel="noopener noreferrer" href={props.url}>
-        <img
-          className="leadership-card__img"
-          style={{
-            // maxHeight: "150px",
-            objectFit: "contain",
-          }}
-          src={props.heroImg}
-          alt={props.title}
-        />
+        <div className="img-holder">
+          <img
+            className="leadership-card__img"
+            style={{
+              // maxHeight: "150px",
+              objectFit: "contain",
+            }}
+            src={props.heroImg}
+            alt={props.title}
+          />
+        </div>
       </a>
     </div>
   );
