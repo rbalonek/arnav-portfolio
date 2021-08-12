@@ -31,7 +31,7 @@ export default function AcademicAndSummer() {
         <div className="academic-summer__bottom__box">
           <p className="academic-summer__bottom__box-title">HARKER SCHOOL</p>
           <p className="academic-summer__bottom__box-text">Economics</p>
-          <p className="academic-summer__bottom__box-text">( Summer 2019)</p>
+          <p className="academic-summer__bottom__box-text">(Summer 2019)</p>
         </div>
         <div className="academic-summer__bottom__box">
           <p className="academic-summer__bottom__box-title">
@@ -59,10 +59,11 @@ export default function AcademicAndSummer() {
             (Formerly MIT)
           </p>
           <p className="academic-summer__bottom__box-text">
-            ENTREPRENEURSHIP PROGRAM (SUMMER 2020)
+            Entrepreneurship program
           </p>
-          <p className="academic-summer__bottom__box-text">
-            LAUNCHED BLUE ORCA
+          <p className="academic-summer__bottom__box-text">(Summer 2020)</p>
+          <p className="academic-summer__bottom__box-text italic">
+            Launched Blue Orcha
           </p>
         </div>
         <div className="academic-summer__bottom__box">
@@ -70,9 +71,9 @@ export default function AcademicAndSummer() {
             WHARTON BUSINESS SCHOOL
           </p>
           <p className="academic-summer__bottom__box-text">
-            SPORTS BUSINESS PROGRAM
+            Sports business program
           </p>
-          <p className="academic-summer__bottom__box-text">( Summer 2021)</p>
+          <p className="academic-summer__bottom__box-text ">(Summer 2021)</p>
         </div>
       </div>
     </div>

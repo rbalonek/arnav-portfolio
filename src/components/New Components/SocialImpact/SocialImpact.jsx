@@ -34,7 +34,14 @@ export default function SocialImpact() {
               <span style={{ color: "#3984cf" }}>Thethundershots.org</span>
             </a>
           </p>
-          <p className="social-impact__text">Featured in Almaden Times</p>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            alt="alameda"
+            href="https://drive.google.com/file/d/1qYvC9iSBIxd_kKdra6rg-b0kKSmJ2TwW/view?usp=sharing"
+          >
+            <p className="social-impact__text">Featured in Almaden Times</p>
+          </a>
         </div>
         <div className="social-impact__right-two-thirds">
           <SocialImpactSlider />

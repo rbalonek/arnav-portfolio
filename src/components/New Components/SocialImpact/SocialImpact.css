@@ -85,12 +85,13 @@
 
 @media (max-width: 768px) {
   .social-impact__container {
-    height: 850px;
+    height: 1000px;
   }
   .social-impact__content-split {
     flex-direction: column;
     align-items: center;
     position: relative;
+    top: 50px;
   }
   .social-impact__left-one-third {
     font-size: 15px;
@@ -102,7 +103,7 @@
   }
   .social-impact__footer__holder {
     position: relative;
-    bottom: 10px;
+    top: 10px;
     margin-bottom: -40px;
     text-align: -webkit-center;
   }

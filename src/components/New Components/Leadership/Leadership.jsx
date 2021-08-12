@@ -23,6 +23,7 @@ export default function Leadership() {
         />
         <LeadershipCard
           title="Captain: Lynbrook Junior Varsity Soccer Team"
+          subtitle="(Currently Varsity Player)"
           heroImg={JvSoccer}
           url="https://lynbrookathletics.com/teams/2068897/boys/soccer/junior%20varsity"
         />
