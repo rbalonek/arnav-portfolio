@@ -1,5 +1,15 @@
 .academic-summer__container {
-  height: 900px;
+  /* height: 900px; */
+  /* height: fit-content;
+  padding-bottom: 20px; */
+  padding-bottom: 250px;
+}
+.new-academic-table-holder {
+  /* position: absolute;
+  top: 0%;
+  right: 20%; */
+  /* position: relative;
+  left: 5%; */
 }
 .academic-summer__banner {
   /* background-color: #4834d4;
@@ -86,7 +96,6 @@
   color: #0077d7;
   height: 250px;
   width: 350px;
-
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -112,14 +121,61 @@
     display: flex;
     justify-content: space-around;
     /* background-color: red; */
-    height: 150px;
+    /* height: 150px; */
     position: relative;
     top: 100px;
   }
   .academic-summer__container {
-    height: 750px;
+    /* height: 750px; */
+  }
+  .academic-summer__bottom__box {
+    background-color: white;
+    color: #0077d7;
+    height: 200px;
+    width: 260px;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: solid black;
+    border-width: medium;
+    box-shadow: 2px 5px 3px 0px #000;
+  }
+  .academic-summer__bottom__box-title {
+    font-size: 20px;
+    position: relative;
+    font-weight: 800;
+  }
+  .academic-summer__bottom__box-text {
+    font-size: 15px;
   }
 }
+
+@media (max-width: 1420px) {
+  .academic-summer__bottom__box {
+    background-color: white;
+    color: #0077d7;
+    height: 200px;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: solid black;
+    border-width: medium;
+    box-shadow: 2px 5px 3px 0px #000;
+  }
+  .academic-summer__bottom__box-title {
+    font-size: 25px;
+    position: relative;
+    font-weight: 800;
+  }
+  .academic-summer__bottom__box-text {
+    font-size: 18px;
+  }
+}
+
 @media (max-width: 1200px) {
   .academic-summer__bottom__container {
     flex-wrap: wrap;
@@ -130,13 +186,12 @@
     margin: 10px;
   }
   .academic-summer__container {
-    margin-bottom: 250px;
   }
 }
 
 @media (max-width: 768px) {
   .academic-summer__container {
-    height: 1300px;
+    /* height: 1300px; */
   }
   .academic-summer__top__right__container {
     display: flex;
@@ -144,7 +199,7 @@
     align-items: center;
   }
   .academic-img-graph {
-    width: 80vw;
+    /* width: 80vw; */
   }
 
   .academic-summer__top__container {
@@ -163,6 +218,7 @@
     height: 100px;
     width: 200px;
     padding: 10px;
+    margin-bottom: 20px;
   }
   .academic-summer__title {
     font-size: 30px;
@@ -171,7 +227,7 @@
     font-size: 15px;
   }
   .academic-summer__top__right__container {
-    top: 0;
+    /* top: 0px; */
   }
   .academic-summer__bottom__box {
     background-color: white;
@@ -186,6 +242,9 @@
     border: solid black;
     border-width: medium;
     box-shadow: 2px 5px 3px 0px #000;
+    position: relative;
+    top: 100px;
+    margin-bottom: 20px;
   }
   .academic-summer__bottom__box-title {
     font-size: 25px;
@@ -194,11 +253,14 @@
   .academic-summer__bottom__box-text {
     font-size: 15px;
   }
+  .academic-summer__bottom__container {
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 600px) {
   .academic-summer__container {
-    height: 1500px;
+    /* height: 1500px; */
   }
   .academic-summer__bottom__box {
     margin-bottom: 10px;
@@ -221,14 +283,13 @@
 }
 
 @media (max-height: 730px) {
-  .academic-summer__bottom__container {
+  /* .academic-summer__bottom__container {
     display: flex;
     justify-content: space-around;
-    /* background-color: red; */
     height: 150px;
     position: relative;
     top: 40px;
-  }
+  } */
 }
 @media (max-height: 575px) {
   /* .academic-summer__bottom__container {
@@ -238,7 +299,7 @@
     position: relative;
     top: 40px; 
   } */
-  .academic-summer__bottom__box {
+  /* .academic-summer__bottom__box {
     background-color: #0077d7;
     color: white;
     height: 150px;
@@ -256,5 +317,5 @@
   }
   .academic-summer__bottom__box-title {
     font-size: small;
-  }
+  } */
 }

@@ -1,20 +1,21 @@
 .social-impact__container {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 .social-impact__banner {
   background-color: #00185a;
   height: 50px;
   color: white;
   text-align: center;
+  margin-bottom: 20px;
 }
 .social-impact__content-split {
   display: flex;
   justify-content: center;
   position: relative;
-  bottom: 0px;
+  top: 50px;
 }
 .social-impact__left-one-third {
   width: 30vw;
@@ -65,19 +66,6 @@
   font-size: 25px;
 }
 
-@media (max-height: 801px) {
-  .social-impact__container {
-    height: 1000px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .social-impact__right-two-thirds {
-    position: relative;
-    top: 50px;
-  }
-}
-
 @media (max-width: 1100px) {
   .social-impact__title {
     font-size: 25px;
@@ -95,16 +83,24 @@
     font-size: 25px;
   }
 }
+@media (min-height: 1050px) {
+  .social-impact__content-split {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+  }
+}
 
 @media (max-width: 768px) {
   .social-impact__container {
-    height: 1000px;
+    /* height: 1000px; */
   }
   .social-impact__content-split {
     flex-direction: column;
     align-items: center;
     position: relative;
-    top: 50px;
+    /* top: 50px; */
   }
   .social-impact__left-one-third {
     font-size: 15px;
@@ -116,9 +112,17 @@
   }
   .social-impact__footer__holder {
     position: relative;
-    top: 10px;
-    margin-bottom: -40px;
+    /* top: 10px; */
+    /* margin-bottom: -40px; */
     text-align: -webkit-center;
+  }
+  .social-impact__right-two-thirds {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    /* position: relative;
+    top: 10px; */
+    /* background-color: cadetblue; */
   }
 }
 
@@ -147,11 +151,11 @@
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 150px;
+    /* bottom: 150px; */
   }
   .social-impact__footer__holder {
-    position: relative;
-    bottom: 100px;
+    /* position: relative;
+    bottom: 100px; */
   }
   .impact-slider__image {
     height: 450px;
@@ -161,10 +165,30 @@
   }
 }
 
-@media (max-height: 800px) {
+/* @media (max-height: 801px) {
+  .social-impact__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .social-impact__right-two-thirds {
+    position: relative;
+    top: 50px;
+  }
   .social-impact__content-split {
     display: flex;
     justify-content: center;
+    position: relative;
+    top: -100px;
+  }
+  .social-impact__banner {
+    background-color: #00185a;
+    height: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .social-impact__footer__holder {
     position: relative;
     bottom: 50px;
   }
@@ -173,4 +197,4 @@
   .social-impact__left-one-third {
     height: 250px;
   }
-}
+} */

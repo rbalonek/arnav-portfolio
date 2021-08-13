@@ -2,7 +2,8 @@ import React from "react";
 import "./AcademicAndSummer.css";
 // import AcademicTable from "./AcademicTable/AcademicTable";
 
-import AcademicImg from "../../../assets/EducationGrid/EdGrid.png";
+// import AcademicImg from "../../../assets/EducationGrid/EdGrid.png";
+import NewAcademicTable from "./NewAcademicTable/NewAcademicTable";
 
 export default function AcademicAndSummer() {
   return (
@@ -23,11 +24,9 @@ export default function AcademicAndSummer() {
         </div>
 
         <div className="academic-summer__top__right__container">
-          <img
-            className="academic-img-graph"
-            src={AcademicImg}
-            alt="academic-grid"
-          />
+          <div className="new-academic-table-holder">
+            <NewAcademicTable />
+          </div>
         </div>
       </div>
 
