@@ -23,7 +23,8 @@
 
 @media (max-width: 770px) {
   .social-impact-slider__image {
-    height: 200px;
+    /* height: 500px; */
+    width: 500px;
   }
   .social-impact-slider__carousel-holder {
     /* position: relative;
@@ -44,10 +45,25 @@
     height: 400px;
     object-fit: scale-down;
   }
+  .social-impact-slider__carousel-holder {
+    /* position: relative;
+    top: 70px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 0px;
+  }
 }
 @media (max-height: 655px) {
   .social-impact-slider__carousel {
     height: 300px;
+    object-fit: scale-down;
+  }
+}
+@media (max-width: 525px) {
+  .social-impact-slider__carousel {
+    width: 300px;
+    height: auto;
     object-fit: scale-down;
   }
 }

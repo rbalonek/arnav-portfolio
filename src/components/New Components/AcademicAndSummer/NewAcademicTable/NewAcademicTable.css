@@ -1,0 +1,27 @@
+.new-academic-table__container {
+  /* width: 800px; */
+  width: 50vw;
+}
+.table-title {
+  height: 50px;
+  font-size: larger;
+  text-align: center;
+  background-color: #3984cf;
+  color: white;
+  /* display: flex;
+  justify-content: center; */
+  /* font-family: Calibri; */
+}
+td {
+  border: white solid 1px !important;
+  height: 60px;
+}
+.the-table {
+  border: black solid 3px;
+}
+
+@media (max-width: 540px) {
+  .new-academic-table__container {
+    width: 300px;
+  }
+}

@@ -8,10 +8,12 @@
   position: absolute;
   left: 90%;
   margin-left: -3px;
-  top: 22%;
+  top: 25%;
 }
 .landing__image {
-  height: 80vh;
+  /* height: 80vh; */
+  width: 500px;
+  max-height: 600px;
   position: relative;
   border: solid;
   box-shadow: -3px 5px 3px 0 #0c0c0c;
@@ -282,9 +284,6 @@
   }
 }
 @media (max-width: 350px) {
-}
-
-@media (max-height: 520px) {
 }
 
 @media not all and (min-resolution: 0.001dpcm) {

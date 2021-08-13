@@ -3,58 +3,67 @@
   justify-content: space-around;
 }
 .social-impact-footer__text {
-  margin-left: 30px;
-  margin-right: 30px;
+  /* margin-left: 30px;
+  margin-right: 30px; */
   text-align: center;
   color: white;
-  padding-top: 10px;
-  height: 210px;
+  padding: 10px;
+  height: 120px;
+  width: 300px;
   background-color: #0086dc;
   box-shadow: 2px 5px 3px 0 #0c0c0c;
-  padding: 10px;
+  /* padding: 10px; */
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  font-size: 28px;
-  width: 400px;
+  font-size: 15px;
 }
 
 @media (max-width: 1600px) {
   .social-impact-footer__text {
-    margin-left: 30px;
+    /* margin-left: 30px;
     margin-right: 30px;
     text-align: center;
     color: white;
     padding-top: 10px;
-    /* height: 110px; */
     background-color: #0086dc;
     box-shadow: 2px 5px 3px 0 #0c0c0c;
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 22px;
+    font-size: 22px; */
   }
 }
 
-@media (max-width: 1220px) {
+@media (max-width: 1250px) {
   .social-impact-footer__text {
-    padding-left: 20px;
-    padding-right: 20px;
     text-align: center;
     color: white;
-    padding-top: 10px;
-    font-size: 20px;
+    padding: 10px;
+    height: 150px;
+    width: 200px;
+    background-color: #0086dc;
+    box-shadow: 2px 5px 3px 0 #0c0c0c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
   }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 825px) {
   .social-impact-footer__text {
-    padding-left: 20px;
-    padding-right: 20px;
     text-align: center;
     color: white;
-    padding-top: 10px;
+    padding: 10px;
+    height: 200px;
+    width: 150px;
+    background-color: #0086dc;
+    box-shadow: 2px 5px 3px 0 #0c0c0c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: 12px;
   }
 }
@@ -73,7 +82,7 @@
     margin-right: 0px;
     text-align: center;
     color: white;
-    height: 50px;
+    height: 80px;
     background-color: #0086dc;
     box-shadow: 2px 5px 3px 0 #0c0c0c;
     padding: 10px;
