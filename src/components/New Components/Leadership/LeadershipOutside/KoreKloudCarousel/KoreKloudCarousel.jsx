@@ -11,6 +11,7 @@ export default function KoreKloudCarousel() {
           <ReactPlayer
             style={{ textAlign: "-webkit-center" }}
             width="80%"
+            height="160px"
             // playing={true}
             controls={true}
             url="https://res.cloudinary.com/bobalobbadingdong/video/upload/v1624838466/Arnav/EEI_VID_1_dglk4y.mp4"
@@ -21,6 +22,7 @@ export default function KoreKloudCarousel() {
           <ReactPlayer
             style={{ textAlign: "-webkit-center" }}
             width="80%"
+            height="160px"
             // playing={true}
             controls={true}
             url="https://res.cloudinary.com/bobalobbadingdong/video/upload/v1624838559/Arnav/EEI_VID_2_m39teq.mp4"
@@ -31,6 +33,7 @@ export default function KoreKloudCarousel() {
           <ReactPlayer
             style={{ textAlign: "-webkit-center" }}
             width="80%"
+            height="160px"
             // playing={true}
             controls={true}
             url="https://res.cloudinary.com/bobalobbadingdong/video/upload/v1624838612/Arnav/EEI_VID_4_zl8krs.mp4"

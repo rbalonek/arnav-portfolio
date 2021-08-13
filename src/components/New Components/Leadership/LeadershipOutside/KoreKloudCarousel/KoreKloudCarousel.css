@@ -1,4 +1,6 @@
 .kore-carousel__container {
   text-align: -webkit-center;
   padding-bottom: 10px;
+  position: relative;
+  top: 150px;
 }
