@@ -84,7 +84,12 @@ export default function LeadershipOutside() {
                 https://www.paper-bridges.org/
               </p>
             </a>
-            <p>“A Thunder Shots Partner”</p>
+            <p
+              className="leadership-outside__text"
+              style={{ position: "relative", bottom: "20px" }}
+            >
+              “A Thunder Shots Partner”
+            </p>
           </div>
         </div>
       </div>

@@ -11,8 +11,8 @@
 }
 
 .leadership-outside__box {
-  height: 400px;
-  width: 600px;
+  height: 350px;
+  width: 400px;
   margin-top: 20px;
   border: solid black;
   border-width: thin;
@@ -44,17 +44,21 @@
   background-color: #0077d7;
   padding: 10px;
   height: 75px;
-  font-size: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .leadership-outside__text {
   padding: 10px;
   /* font-size: medium; */
-  font-size: 18px;
+  font-size: 14px;
   color: #0077d7;
 }
 .leadership-outside__orcha-pics {
-  height: 200px;
-  max-width: 50%;
+  height: 100px;
+  max-width: 60%;
   position: relative;
   top: 30px;
 }
@@ -88,7 +92,7 @@
   flex-direction: column;
 }
 .change-for-mobile {
-  bottom: 100px;
+  top: 30px;
 }
 
 .leadership-outside__kore-right {
