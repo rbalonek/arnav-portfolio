@@ -1,0 +1,10 @@
+.social {
+  position: relative;
+  bottom: 70px;
+}
+@media (max-width: 500px) {
+  .social {
+    position: relative;
+    bottom: 260px;
+  }
+}

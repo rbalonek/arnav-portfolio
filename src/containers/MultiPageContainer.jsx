@@ -1,4 +1,5 @@
 import React from "react";
+import "./MultiPage.css";
 import { Route, Switch } from "react-router-dom";
 import AcademicAndSummer from "../components/New Components/AcademicAndSummer/AcademicAndSummer";
 import Awards from "../components/New Components/Awards/Awards";
