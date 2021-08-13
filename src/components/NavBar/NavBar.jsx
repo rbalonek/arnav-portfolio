@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavBar.css";
-import { Navbar, NavDropdown } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 
 const NavBar = () => {
   return (

@@ -246,6 +246,24 @@
   }
 }
 
+@media (max-width: 768px) {
+  .landing__image {
+    /* height: 80vh; */
+    width: 300px;
+    /* max-height: 600px; */
+    position: relative;
+    border: solid;
+    box-shadow: -3px 5px 3px 0 #0c0c0c;
+    border-radius: 2%;
+    top: 10px;
+  }
+
+  .landing__container {
+    min-height: 900px;
+    /* min-height: 100vh; */
+  }
+}
+
 @media (max-width: 700px) {
   .landing__right {
     width: 100%;

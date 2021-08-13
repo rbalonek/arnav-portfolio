@@ -5,7 +5,6 @@ import SocialImpact from "../../components/New Components/SocialImpact/SocialImp
 import AcademicAndSummer from "../../components/New Components/AcademicAndSummer/AcademicAndSummer";
 import Leadership from "../../components/New Components/Leadership/Leadership";
 import Awards from "../../components/New Components/Awards/Awards";
-import Research from "../../components/New Components/Research/Research";
 import NewResearch from "../../components/New Components/Research/NewResearch/NewResearch";
 
 export default function OnePage() {
