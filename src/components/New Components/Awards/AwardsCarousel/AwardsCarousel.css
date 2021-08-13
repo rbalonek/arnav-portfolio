@@ -17,3 +17,9 @@
     /* top: 50px; */
   }
 }
+@media (max-width: 500px) {
+  .awards-carousel__container {
+    width: 80vw;
+    bottom: 50px;
+  }
+}

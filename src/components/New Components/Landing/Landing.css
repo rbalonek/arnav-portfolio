@@ -266,16 +266,6 @@
   }
 }
 
-@media (max-width: 430px) {
-  .landing__image {
-    /* width: 300px; */
-    height: 300px;
-    width: auto;
-  }
-  .landing__container {
-    min-height: 800px;
-  }
-}
 @media (max-width: 350px) {
 }
 
@@ -293,6 +283,16 @@
     box-shadow: -3px 5px 3px 0 #0c0c0c;
     border-radius: 2%;
     top: 10px;
+  }
+}
+@media (max-width: 430px) {
+  .landing__image {
+    /* width: 300px; */
+    /* height: 300px; */
+    width: 250px;
+  }
+  .landing__container {
+    min-height: 800px;
   }
 }
 
