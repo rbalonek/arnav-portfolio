@@ -2,7 +2,16 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  height: fit-content;
+  /* padding-bottom: 150px; */
   /* justify-content: space-between; */
+}
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */
+  .social-impact__container {
+    /* height: 1700px; */
+    /* padding-bottom: 150px; */
+  }
 }
 .social-impact__banner {
   background-color: #00185a;
@@ -100,15 +109,15 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    /* top: 50px; */
+    /* top: 0px; */
   }
   .social-impact__left-one-third {
     font-size: 15px;
     width: 80%;
-    margin-bottom: 310px;
+    margin-bottom: 290px;
     height: 300px;
     position: relative;
-    top: 100px;
+    /* top: 100px; */
   }
   .social-impact__footer__holder {
     position: relative;
@@ -123,6 +132,7 @@
     /* position: relative;
     top: 10px; */
     /* background-color: cadetblue; */
+    margin-bottom: 100px;
   }
 }
 

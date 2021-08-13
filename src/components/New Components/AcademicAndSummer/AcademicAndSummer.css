@@ -2,7 +2,13 @@
   /* height: 900px; */
   /* height: fit-content;
   padding-bottom: 20px; */
-  padding-bottom: 250px;
+}
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */
+  .academic-summer__container {
+    /* height: 1700px; */
+    /* padding-bottom: 800px; */
+  }
 }
 .new-academic-table-holder {
   /* position: absolute;
@@ -191,7 +197,7 @@
 
 @media (max-width: 768px) {
   .academic-summer__container {
-    /* height: 1300px; */
+    height: 1500px;
   }
   .academic-summer__top__right__container {
     display: flex;

@@ -1,5 +1,13 @@
 .new-research__container {
-  height: 850px;
+  /* height: 850px; */
+  min-height: 100vh;
+  /* padding-bottom: 500px; */
+}
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */
+  /* .new-research__container {
+    padding-bottom: 500px;
+  } */
 }
 .new-research__research-container {
   display: flex;
@@ -85,7 +93,7 @@
 
 @media (max-width: 1015px) {
   .new-research__container {
-    height: 1800px;
+    /* height: 1800px; */
   }
   .new-research__research-container {
     display: flex;
@@ -128,5 +136,13 @@
     color: #0077d7;
     padding: 10px;
     height: 280px;
+  }
+}
+
+@media (max-width: 768px) {
+  .new-research__container {
+    /* height: 850px; */
+    min-height: 100vh;
+    padding-bottom: 400px;
   }
 }

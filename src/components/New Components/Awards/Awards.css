@@ -1,11 +1,18 @@
 .awards__container {
   min-height: 100vh;
 }
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */
+  .awards__container {
+    /* height: 1700px; */
+    /* padding-bottom: 500px; */
+  }
+}
 .awards__text-carousel__container {
   display: flex;
   justify-content: center;
   position: relative;
-  top: 100px;
+  top: 50px;
 }
 .awards__text {
   /* width: 600px;
